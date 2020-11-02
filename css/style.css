@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background-color: #040f16;
+    color: #0094c6;
+}
+
+h1, h2,h3{
+    font-family: 'Special Elite', sans-serif;
+}
+
+p{
+    font-family: 'Zilla Slab', sans-serif;
+}
