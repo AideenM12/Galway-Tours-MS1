@@ -5,6 +5,12 @@ body{
     color: #0094c6;
 }
 
+img {
+    clear: both;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
 h1, h2,h3{
     font-family: 'Special Elite', sans-serif;
 }
