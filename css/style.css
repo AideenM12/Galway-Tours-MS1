@@ -57,3 +57,20 @@ h1, h2,h3{
 p{
     font-family: 'Zilla Slab', sans-serif;
 }
+.description-left {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 10px;
+    
+}
+
+.description-right {
+    float: right;
+    display: inline-block;
+    width: 50%;
+    padding-top: 15px;
+    padding-left: 10px;
+    
+}
