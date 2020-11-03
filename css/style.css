@@ -48,6 +48,7 @@ h1{
     text-align: center;
     padding-top: 5px;
     z-index: 1;
+    border-bottom: 2px #005e7c solid;
 }
 
 h1, h2,h3{
@@ -56,6 +57,13 @@ h1, h2,h3{
 
 p{
     font-family: 'Zilla Slab', sans-serif;
+}
+
+hr{
+background-color: #005e7c;
+height: 2px;
+width: 100%;
+z-index: 1;
 }
 .description-left {
     width: 50%;
