@@ -5,13 +5,8 @@ body{
     color: #0094c6;
 }
 
-.logo {
-    
-   /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    height: auto;
-    width: 100%;
+img {
+    margin-bottom: 50%;
 }
     
 h1, h2,h3{
