@@ -5,10 +5,34 @@ body{
     color: #0094c6;
 }
 
-img {
+/*img {
     margin-bottom: 50%;
-}
+}*/
+.logo{
+    height: 600px;
+    width: 100%;
+    border: #0094c6 solid 10px;
     
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+  
+}
+
+.logo-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding:0 20px;
+    margin:0 5px;
+}
+
+h1{
+    text-align: center;
+}
 h1, h2,h3{
     font-family: 'Special Elite', sans-serif;
 }
