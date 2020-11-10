@@ -13,12 +13,19 @@
 The central goal is to create a fictional business to customer website that offers a unique tourist experience of Galway city through the medium of organized tours of the city's pub scene. The business function of the site is to create brand awareness which will be enhanced by linking the site to various social media accounts and also to Tripadvisor so the user can access accounts of previous customer experiences. There will also be a testimonial section on the landing page which in
 tandem with tripadvisor will be used to heighten the percived value of the business. The primary function of the social
 meet-ups page is to generate and enhance the social currency of the website and explore another possible future business
-venture if the meet-ups proved popular among users.
+venture if the meet-ups proved popular among users. What makes this idea special or even viable? Studies have consistently
+shown that the millenial generation prefer spending their income on experiences rather than material objects and this 
+generation also happens to be in possession of considerable disposable income. Galway's tourist industry is booming and 
+this idea appeals an experience orientated tourist by exploiting Galway's primary tourism asset: its nightlife. 
 
-* Create an online presence.
-* Offer a comprehensive list of tours provided.
-* Offer free social events to generate traffic to the website.
-* Simple, easy UX to enhance the customer's ease of use and promote a postive emotional response.
+**The Strategy for achieving the above business goals is as follows:**
+* Creating an online presence for Galway Beer and Whiskey Tours.
+* Offering a comprehensive list of tours provided.
+* Offering free social events to generate consistent and repeat traffic to the website.
+* Creating simple, easy UX to enhance the customer's ease of use and promote a postive emotional response.
+* Choosing images that generate a postive emotional response that appeals to the user's imagination so that 
+  they can visualise themselves taking part in a tour or attending a meet-up. The desired effect of this is to encourage 
+  the user to purchase the product within the first few visits to the site. 
 
 ### Customer Goals
 
@@ -53,6 +60,8 @@ with the aesthetic I wanted to create. I contrasted this with the 'Zilla Slab' f
 
 I chose my color palette using the https://coolors.co website which my mentor had recommended. I chose these colors because
 I felt the palette best represented what the website offered, a friendly exploration of Galway's pub scene and night life.
+<img src="MS1Palette.png" width="250" height="250" alt="">
+
 
 
 
