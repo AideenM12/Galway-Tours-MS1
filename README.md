@@ -1,12 +1,19 @@
 # Galway Beer and Whiskey Tours
 
-## Contents
+# Contents
 * UX
 
 
-## UX
+# UX
+
+## Strategy Plane
 
 ### Project Goals
+
+The central goal is to create a fictional business to customer website that offers a unique tourist experience of Galway city through the medium of organized tours of the city's pub scene. The business function of the site is to create brand awareness which will be enhanced by linking the site to various social media accounts and also to Tripadvisor so the user can access accounts of previous customer experiences. There will also be a testimonial section on the landing page which in
+tandem with tripadvisor will be used to heighten the percived value of the business. The primary function of the social
+meet-ups page is to generate and enhance the social currency of the website and explore another possible future business
+venture if the meet-ups proved popular among users.
 
 * Create an online presence.
 * Offer a comprehensive list of tours provided.
@@ -65,3 +72,6 @@ I felt the palette best represented what the website offered, a friendly explora
 
 ## Credits
 
+### Media
+
+* The banner image was originally obtained from [Jared Burris on unsplash.com](https://unsplash.com/photos/Kzq3JphxXiA) 
