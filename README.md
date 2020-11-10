@@ -28,12 +28,13 @@ this idea appeals an experience orientated tourist by exploiting Galway's primar
   the user to purchase the product within the first few visits to the site. 
 
 ### Customer Goals
+Prospective users :
 
-* In search of tourist activities in Galway city.
-* Clear outline of tours provided.
-* Clear and affordable services.
-* New to the city and in search of a social community.
-* Easy to contact service providers.
+* Are in search of tourist activities in Galway city.
+* Want a clear outline of tours provided.
+* Desire clear and affordable services.
+* Are new to the city and in search of a social community.
+* Want easy to contact service providers.
 
 **The Ideal User of this website is:**
 * Visiting or new to the city.
@@ -60,7 +61,9 @@ with the aesthetic I wanted to create. I contrasted this with the 'Zilla Slab' f
 
 I chose my color palette using the https://coolors.co website which my mentor had recommended. I chose these colors because
 I felt the palette best represented what the website offered, a friendly exploration of Galway's pub scene and night life.
-<img src="MS1Palette.png" width="250" height="250" alt="">
+
+
+<img src="MS1Palette.png" width="400" height="300" alt="">
 
 
 
@@ -75,6 +78,10 @@ I felt the palette best represented what the website offered, a friendly explora
 
 ## Testing
 
+
+### Known Bugs and Issues
+* I had difficulty resizing the color palette using solely markdown and referred the issue to the slack community where
+  Kasia kindly helped to resolve the issue by recommending the <img src> tag instead.  
 
 ## Deployment
 
