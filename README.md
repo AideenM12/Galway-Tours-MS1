@@ -6,7 +6,7 @@
 
 # UX
 
-## Strategy Plane
+## Strategy 
 
 ### Project Goals
 
@@ -36,6 +36,8 @@ Prospective users :
 * Are new to the city and in search of a social community.
 * Want easy to contact service providers.
 
+## Scope
+
 **The Ideal User of this website is:**
 * Visiting or new to the city.
 * Enjoys socialising.
@@ -43,7 +45,7 @@ Prospective users :
 * Has dispoable income which they enjoy spending on unique experiences.
 * Is interested in making new social connections.
 
-## User Stories
+### User Stories
 * As a first time user I want to find out information about guided tours of Galway city.
 * As a first time user I want to be able to communicate with the service user easily and efficiently.
 * As a new user I want to discover what social meet-ups the website offers to people who have just moved to the city.
@@ -54,11 +56,16 @@ Prospective users :
   should I choose to take part in a tour.
 * As a potential client I want to find a fun and unique activity to do during my holiday to Galway. 
 
-## Design
+## Structure
+
+### Design
+
+**Typograpghy**
 I chose the 'Special Elite' font because it reminded of the fonts used on old-style beer labels which helps 
 with the aesthetic I wanted to create. I contrasted this with the 'Zilla Slab' font in order to complement the 
 'Special Elite' font and also to maintain some style neutrality in order to prevent a style overload on the website.
 
+**Colours**
 I chose my color palette using the https://coolors.co website which my mentor had recommended. I chose these colors because
 I felt the palette best represented what the website offered, a friendly exploration of Galway's pub scene and night life.
 
@@ -68,7 +75,7 @@ I felt the palette best represented what the website offered, a friendly explora
 
 
 
-## Technologies
+### Technologies
 * HTML
 * CSS
 

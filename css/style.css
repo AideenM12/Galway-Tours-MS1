@@ -83,3 +83,8 @@ z-index: 1;
     
 }
 
+nav ul li {
+    text-align: right;
+    font-family: 'Special Elite', sans-serif;
+    color:#0094c6;
+}
