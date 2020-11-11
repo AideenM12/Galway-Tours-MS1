@@ -37,7 +37,7 @@ body{
 }
 
 h1{
-    text-align: center;
+    text-align: justify;
     padding-top: 5px;
 }
 .banner{
@@ -45,7 +45,7 @@ h1{
     background-color: #000022;
     color: #0094c6;
     position: fixed;
-    text-align: center;
+    
     padding-top: 5px;
     z-index: 1;
     border-bottom: 2px #005e7c solid;
@@ -87,4 +87,7 @@ nav ul li {
     text-align: right;
     font-family: 'Special Elite', sans-serif;
     color:#0094c6;
+    padding-right: 10px;
+    font-size: 25px;
+    display: block;
 }

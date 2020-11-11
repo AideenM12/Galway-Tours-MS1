@@ -72,6 +72,10 @@ I felt the palette best represented what the website offered, a friendly explora
 
 <img src="MS1Palette.png" width="400" height="300" alt="">
 
+**Display**
+I chose this particular dropdown style of navigation having originally wanted to use a 'hamburger' style navigation bar but without Javascript this proved 
+a little beyond the current scope of achievement. 
+
 
 
 
