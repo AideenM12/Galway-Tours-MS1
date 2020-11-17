@@ -4,6 +4,8 @@ body{
     background-color: #040f16;
     color: #0094c6;
     overflow-x: hidden;
+    margin: 0;
+    
 }
 
 /* Logo code was inspired by the love running page provided by the Code Institute */
@@ -102,6 +104,8 @@ nav ul li {
 footer{
     font-family: 'Special Elite', sans-serif;
     width: 100%;
+    position: relative;
+    display: block;
     
 }
 
@@ -112,6 +116,8 @@ footer{
     padding-top: 5px;
     padding-bottom: 0;
     margin: 0;
+    width: 100%;
+    display: block;
     
 }
 
@@ -121,9 +127,15 @@ footer{
     font-size: 20px;
 }
 
+
 .icons {
     float: right;
+}
 
+ .icons li a i{
+    line-height: 10px;
+    height: 30px;
+    width: 30px;
 }
 
 @media only screen and (max-width: 576px){
