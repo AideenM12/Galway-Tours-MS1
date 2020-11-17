@@ -105,7 +105,7 @@ footer{
     font-family: 'Special Elite', sans-serif;
     width: 100%;
     position: relative;
-    display: block;
+    display: inline;
     
 }
 
@@ -117,7 +117,7 @@ footer{
     padding-bottom: 0;
     margin: 0;
     width: 100%;
-    display: block;
+    
     
 }
 
@@ -126,6 +126,16 @@ footer{
     
     font-size: 20px;
 }
+.page-break {
+    height: 60px;
+    width: 100%;
+    background-color: #005e7c;
+    color: #001242;
+    text-align: center;
+    border: solid 2px #0094c6;
+    padding-top: 15px;
+    font-family: 'Special Elite', sans-serif;
+}
 
 
 .icons {
@@ -133,9 +143,11 @@ footer{
 }
 
  .icons li a i{
+     padding-top: 10px;
     line-height: 10px;
     height: 30px;
     width: 30px;
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 576px){
@@ -170,5 +182,8 @@ footer{
         margin:0 0 0 10px;
         padding: 0;
 
+    }
+    .page-break{
+        display: none;
     }
    }
