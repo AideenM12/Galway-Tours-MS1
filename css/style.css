@@ -115,6 +115,7 @@ footer{
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 0;
+    padding-right: 0;
     margin: 0;
     width: 100%;
     
@@ -132,11 +133,20 @@ footer{
     background-color: #005e7c;
     color: #001242;
     text-align: center;
-    border: solid 2px #0094c6;
+    border: solid 2px #040f16;
     padding-top: 15px;
     font-family: 'Special Elite', sans-serif;
 }
 
+.page-break a {
+    color: #001242;
+}
+
+.page-break a:hover{
+    color: #040f16;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .icons {
     float: right;
