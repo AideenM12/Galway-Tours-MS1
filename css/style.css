@@ -136,6 +136,7 @@ footer{
     border: solid 2px #040f16;
     padding-top: 15px;
     font-family: 'Special Elite', sans-serif;
+    font-size: 20px;
 }
 
 .page-break a {
@@ -158,6 +159,12 @@ footer{
     height: 30px;
     width: 30px;
     font-size: 25px;
+}
+
+.icons li a i:hover {
+    color: #005e7c;
+    
+    
 }
 
 @media only screen and (max-width: 576px){
