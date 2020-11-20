@@ -226,6 +226,15 @@ footer{
         display: none;
     }
 
+    .description-left p{
+        visibility: collapse;
+
+    }
+
+    .description-right p{
+        visibility: collapse;
+    }
+
     .row-margin{
         overflow: hidden;
     }
