@@ -106,9 +106,9 @@ footer{
     width: 100%;
     height: auto;
     position: relative;
-    display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
+    
+    
+    
     
 }
 
@@ -122,6 +122,8 @@ footer{
     margin: 0;
     width: 100%;
     height: auto;
+    
+    
     
     
 }
@@ -209,16 +211,46 @@ footer{
         display: none;
     }
 
+    .row-margin{
+        overflow: hidden;
+    }
     
     .foot-text {
         font-size: 15px;
         display: inline-block;
 
     }
+    .icons{
+        float: none;
+        word-spacing: 30px;
+        
+        
+    }
 
     .icons li a i{
         height: 15px;
         width: 15px;
         font-size: 15px;
+        clear: both;
+        text-align: center;
+        padding-bottom: 15px;
+        
+    }
+
+    .foot-1{
+        height: 20px;
+        text-align: center;
+        position: relative;
+
+
+    }
+    .foot-2{
+        text-align: center;
+        height: 30px;
+        position: relative;
+        padding-bottom: 5px;
+        
+        
+    
     }
    }
