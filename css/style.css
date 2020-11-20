@@ -104,20 +104,24 @@ nav ul li {
 footer{
     font-family: 'Special Elite', sans-serif;
     width: 100%;
+    height: auto;
     position: relative;
     display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
 .row-margin {
     background-color: #000022;
     border-top: 2px #005e7c solid;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 0;
-    padding-right: 0;
+    padding-right: 10px;
     margin: 0;
     width: 100%;
+    height: auto;
     
     
 }
@@ -126,6 +130,7 @@ footer{
     font-family: 'Special Elite', sans-serif;
     
     font-size: 20px;
+    padding-left: 25px;
 }
 .page-break {
     height: 60px;
