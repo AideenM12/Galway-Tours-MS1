@@ -93,8 +93,10 @@ nav ul li {
     
 }
 
+
 .dropdown-menu{
     background-color: #000022;
+    float: right;
 }
 .dropdown-item{
     color: #0094c6;
@@ -174,6 +176,12 @@ footer{
     
 }
 
+@media only screen and (min-width: 768px){
+    h1 {
+        font-size: 35px;
+    }
+}
+
 @media only screen and (max-width: 576px){
     h1{
         display: inline-block;
@@ -187,9 +195,9 @@ footer{
         margin-bottom: 5px;
     }
     .navbutton {
-        display:inline-block;
-        float: left;
-        clear:left;
+        font-size: 20px;
+        
+        
         width: 100%;
         position: static;
         text-align: center;
@@ -199,6 +207,13 @@ footer{
         margin-top: 5px;
         margin-bottom: 0;
         
+    }
+
+    .dropdown{
+        font-size: 20px;
+        padding-top: 5px;
+        text-align: center;
+        float: none;
     }
     .logo-outer, .logo{
         width: 100%;
