@@ -228,6 +228,12 @@ footer{
         text-align: center;
         float: none;
     }
+
+    .dropdown-menu.show {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
     .logo-outer, .logo{
         width: 100%;
         height: auto;
