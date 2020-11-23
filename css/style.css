@@ -83,13 +83,12 @@ z-index: 1;
     
 }
 
-nav ul li {
+.navstyle{
     text-align: right;
     font-family: 'Special Elite', sans-serif;
     color:#0094c6;
-    padding-right: 10px;
-    font-size: 30px;
-    display: block;
+    background-color: #000022;
+    
     
 }
 
@@ -100,6 +99,7 @@ nav ul li {
 }
 .dropdown-item{
     color: #0094c6;
+    font-family: 'Special Elite', sans-serif;
 }
 
 
