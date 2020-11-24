@@ -256,6 +256,21 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+
+/* This selector was created using dev tools on google chrome*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #001242;
+    background-color: #005e7c;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+.dropdown a:active{
+    background-color: #005e7c;
+    color: #001242;
+}
     .logo-outer, .logo{
         width: 100%;
         height: auto;
