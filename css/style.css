@@ -108,6 +108,10 @@ z-index: 1;
     
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #001242;
+    background-color: #005e7c;
+}
 
 footer{
     font-family: 'Special Elite', sans-serif;
@@ -193,6 +197,14 @@ footer{
 }
 
 @media only screen and (max-width: 576px){
+  /* body{
+       background: url('assets/hero.jpg') no-repeat center center fixed;
+       -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   }*/
+   
     h1{
         display: inline-block;
         font-size: 20px;
@@ -250,7 +262,10 @@ footer{
         display: inline-block;
         width: 100%;
     }
-
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #001242;
+    background-color: #005e7c;
+}
     .dropdown-menu.show {
     display: block;
     width: 100%;
@@ -274,21 +289,34 @@ footer{
     .logo-outer, .logo{
         width: 100%;
         height: auto;
-        margin:0 0 0 10px;
+        margin:0 10px 0 10px;
         padding: 0;
+        }
 
-    }
+    /*.background{
+        background: url('assets/hero.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+        background-size: 100% 100%;
+        
+    }*/
+
+
     .page-break{
         display: none;
     }
 
     .description-left p{
-        visibility: collapse;
+        /*visibility: collapse;*/
+        background-color: #001242;
+        width: 100%;
+        height: auto;
 
     }
 
     .description-right p{
-        visibility: collapse;
+        /*visibility: collapse;*/
     }
 
     .row-margin{
