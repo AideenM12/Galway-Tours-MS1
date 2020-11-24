@@ -83,7 +83,7 @@ z-index: 1;
     
 }
 
-.navstyle{
+.nav{
     text-align: right;
     font-family: 'Special Elite', sans-serif;
     color:#0094c6;
@@ -195,14 +195,26 @@ footer{
         width: 100%;
         position: fixed;
         text-align: left;
-        padding-left: 2px;
+        padding-right: 7px;
+        padding-left: 10px;
         
         margin-top: 5px;
         margin-bottom: 5px;
         z-index: 1;
     }
     
-    
+    .nav{
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    padding-top: 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    list-style: none;
+    font-family: 'Special Elite', sans-serif;
+    text-align: center;
+    }
 
     .navbutton {
         
@@ -212,7 +224,7 @@ footer{
 
 
         width: 100%;
-        position: static;
+        position: relative;
         text-align: center;
         padding-top: 10px;
         padding-left: 20px;
@@ -227,6 +239,7 @@ footer{
         padding-top: 5px;
         text-align: center;
         float: none;
+        display: inline-block;
     }
 
     .dropdown-menu.show {
