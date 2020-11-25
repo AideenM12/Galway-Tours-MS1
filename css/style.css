@@ -283,15 +283,61 @@ footer {
     display: none;
   }
 
+  .description{
+      text-align: center;
+      color: #000022;
+      font-weight: bold;
+  }
+
+  .description-left{
+      width: 100%;
+    margin-top: 80px;
+    height: auto;
+    float: none;
+    border-radius: 50%;
+    
+    padding: 25px;
+    clear: both;
+    
+  }
+ .description-right{
+      width: 100%;
+
+    height: auto;
+    float: none;
+    border-radius: 50%;
+    
+    padding: 25px;
+    clear: both;
+    
+ }
+
   .description-left p {
-    /*visibility: collapse;*/
-    background-color: #001242;
+    
+    background-color: rgba(0, 94, 124, 0.9);
+    color: #001242;
+    font-weight: 400;
     width: 100%;
     height: auto;
+    float: none;
+    border-radius: 50%;
+    
+    padding: 25px;
+    clear: both;
   }
 
   .description-right p {
-    /*visibility: collapse;*/
+
+  background-color: rgba(0, 94, 124, 0.9);
+    color: #001242;
+    font-weight: 400;
+    width: 100%;
+    height: auto;
+    float: none;
+    border-radius: 50%;
+    
+    padding: 25px;
+    clear: both;
   }
 
   .row-margin {
