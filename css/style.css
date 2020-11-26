@@ -20,6 +20,8 @@ body {
   float: right;
   padding-left: 30px;
   padding-right: 35px;
+
+   
 }
 
 .logo-outer {
@@ -31,6 +33,8 @@ body {
 
   clear: both;
 }
+
+
 
 h1 {
   text-align: justify;
@@ -154,11 +158,10 @@ footer {
   text-decoration: none;
 }
 
-.icon-bars {
-  color: #0094c6;
-}
+
 .icons {
   float: right;
+  
 }
 
 .icons li a i {
@@ -167,6 +170,9 @@ footer {
   height: 30px;
   width: 30px;
   font-size: 20px;
+ /* color: #000022;
+  background-color: #005e7c;
+  border-radius: 50%;*/
 }
 
 .icons li a i:hover {
@@ -348,6 +354,7 @@ footer {
   .icons {
     float: none;
     word-spacing: 30px;
+    
   }
 
   .icons li a i {
