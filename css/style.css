@@ -270,13 +270,6 @@ footer {
     background-color: #005e7c;
     color: #001242;
   }
-  /* .logo-outer, .logo{
-        width: 100%;
-        height: auto;
-        margin:0 10px 0 10px;
-        padding: 0;
-        }*/
-
   
 
   .page-break {
@@ -287,6 +280,8 @@ footer {
       text-align: center;
       color: #000022;
       font-weight: bold;
+      text-shadow: 4px 4px 4px #005e7c;
+      font-size: 40px;
   }
 
   .description-left{
@@ -311,6 +306,8 @@ footer {
     clear: both;
     
  }
+
+ 
 
   .description-left p {
     

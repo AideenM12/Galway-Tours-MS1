@@ -64,6 +64,8 @@ Prospective users :
 I chose the 'Special Elite' font because it reminded of the fonts used on old-style beer labels which helps 
 with the aesthetic I wanted to create. I contrasted this with the 'Zilla Slab' font in order to complement the 
 'Special Elite' font and also to maintain some style neutrality in order to prevent a style overload on the website.
+I added a text shadow to the h3 text on mobile screen because the original text was quite difficult to view against the 
+background image. 
 
 **Colours**
 I chose my color palette using the https://coolors.co website which my mentor had recommended. I chose these colors because
