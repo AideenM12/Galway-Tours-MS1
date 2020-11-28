@@ -358,7 +358,7 @@ footer {
     height: auto;
     float: none;
     border-radius: 50%;
-    
+    border: solid 1px #001242;
     padding: 25px;
     clear: both;
   }
@@ -372,7 +372,7 @@ footer {
     height: auto;
     float: none;
     border-radius: 50%;
-    
+    border: solid 1px #001242;
     padding: 25px;
     clear: both;
   }
