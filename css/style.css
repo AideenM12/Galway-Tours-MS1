@@ -401,18 +401,24 @@ footer {
   }
 
   .tour1{
-      margin: 90px 30px 30px 30px;
-      padding: 10px;
+      margin: 300px 30px 30px 30px;
+      padding: 30px;
+       background-color: rgba(0, 94, 124, 0.9);
+       border-radius: 25%;
   }
 .tour2{
 margin: 30px;
-      padding: 10px;
+      padding: 30px;
+       background-color: rgba(0, 94, 124, 0.9);
+       border-radius: 25%;
 
 }
 
 .tour3{
     margin: 30px;
-      padding: 10px;
+      padding: 30px;
+       background-color: rgba(0, 94, 124, 0.9);
+       border-radius: 25%;
 }
   .foot-1 {
     height: 20px;
