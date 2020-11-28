@@ -170,14 +170,48 @@ footer {
   height: 30px;
   width: 30px;
   font-size: 20px;
- /* color: #000022;
-  background-color: #005e7c;
-  border-radius: 50%;*/
+ 
 }
 
 .icons li a i:hover {
   color: #005e7c;
 }
+
+.tour1{
+   margin-top: 60px; 
+   margin-bottom: 20px;
+    background-color: #005e7c;
+    color: #001242;
+    text-align: center;
+    
+    padding-left: 30px; 
+    border: 2px solid #040f16;
+}
+
+.tour2{
+     margin-top: 60px;
+     margin-bottom: 20px;
+  background-color: #005e7c;
+    color: #001242;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    border: 2px solid #040f16;
+}
+
+
+
+.tour3{
+     margin-top: 60px;
+     margin-bottom: 20px;
+   background-color: #005e7c;
+    color: #001242;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    border: 2px solid #040f16;
+}
+
 
 @media only screen and (min-width: 768px) {
   h1 {
@@ -284,9 +318,9 @@ footer {
 
   .description{
       text-align: center;
-      color: #000022;
+      color: #005e7c;
       font-weight: bold;
-      text-shadow: 4px 4px 4px #005e7c;
+      text-shadow: 4px 4px 4px #000022;
       font-size: 40px;
   }
 
