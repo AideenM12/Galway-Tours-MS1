@@ -400,6 +400,20 @@ footer {
     padding-bottom: 15px;
   }
 
+  .tour1{
+      margin: 90px 30px 30px 30px;
+      padding: 10px;
+  }
+.tour2{
+margin: 30px;
+      padding: 10px;
+
+}
+
+.tour3{
+    margin: 30px;
+      padding: 10px;
+}
   .foot-1 {
     height: 20px;
     text-align: center;
