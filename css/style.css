@@ -211,10 +211,12 @@ footer {
     padding-right: 0;
     border: 2px solid #040f16;
 }
-.tour1 img{
-    width: 80px;
-    height: 80px;
+.tour1 img, .tour2 img, .tour3 img{
+    margin: 15px;
+    width: 250px;
+    height: 200px;
     border-radius: 50%;
+    border: solid #040f16 15px;
 }
 
 
