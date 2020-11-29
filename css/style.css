@@ -450,6 +450,13 @@ margin: 30px;
        border-radius: 25%;
        font-weight: 600;
 }
+
+.contact{
+    margin-top: 240px;
+    margin-bottom: 75px;
+    background-color: rgba(0, 94, 124, 0.9);
+    
+}
   .foot-1 {
     height: 20px;
     text-align: center;
