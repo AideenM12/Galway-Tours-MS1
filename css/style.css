@@ -250,6 +250,7 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
   }
 
  
@@ -424,15 +425,15 @@ footer {
   }
 
   .tour1{
-      margin: 300px 30px 30px 30px;
-      padding: 30px;
+      margin: 300px 50px 10px 50px;
+      padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
   }
 .tour2{
-margin: 30px;
-      padding: 30px;
+margin: 30px 50px 10px 50px;
+      padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
@@ -444,8 +445,8 @@ margin: 30px;
 }
 
 .tour3{
-    margin: 30px;
-      padding: 30px;
+    margin: 30px 50px 10px 50px;
+      padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
