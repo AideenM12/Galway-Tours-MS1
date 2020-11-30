@@ -105,3 +105,5 @@ a little beyond the current scope of achievement.
 
 * The banner image was originally obtained from [Jared Burris on unsplash.com](https://unsplash.com/photos/Kzq3JphxXiA) 
 * The whiskey.jpg image was originally obtained from [Andrew Seaman on upsplash.com](https://unsplash.com/photos/3Vb7WtHGRes)
+* The barflair.pg image was originally obtained from [Bon Vivant on unsplash.com](https://unsplash.com/photos/FcS257Cw9es)
+* The people.jpg image was originally obtained from [Elevate on upsplash.com](https://unsplash.com/photos/KJzrLIfq2Zo)

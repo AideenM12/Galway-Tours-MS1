@@ -75,6 +75,13 @@ hr {
   padding-right: 10px;
   padding-left: 10px;
 }
+.barflair{
+    float:right;
+  
+  width: 50%;
+  padding-top: 15px;
+  padding-left: 10px;
+}
 
 .description-right {
   float:right;
