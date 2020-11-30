@@ -104,3 +104,4 @@ a little beyond the current scope of achievement.
 ### Media
 
 * The banner image was originally obtained from [Jared Burris on unsplash.com](https://unsplash.com/photos/Kzq3JphxXiA) 
+* The whiskey.jpg image was originally obtained from [Andrew Seaman on upsplash.com](https://unsplash.com/photos/3Vb7WtHGRes)
