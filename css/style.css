@@ -214,6 +214,19 @@ footer {
   color: #005e7c;
 }
 
+.testimonials{
+    width: 100%;
+  background-color: #000022;
+  color: #0094c6;
+
+}
+.testleft{
+    width: 50%;
+}
+.testright{
+    width: 50%;
+}
+
 .tour1{
    margin-top: 60px; 
    margin-bottom: 20px;
