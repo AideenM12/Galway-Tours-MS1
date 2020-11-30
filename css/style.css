@@ -70,14 +70,15 @@ hr {
 .description-left {
   width: 50%;
   
-  display: inline-block;
+  float:left;
   padding-top: 15px;
   padding-right: 10px;
+  padding-left: 10px;
 }
 
 .description-right {
+  float:right;
   
-  display: inline-block;
   width: 50%;
   padding-top: 15px;
   padding-left: 10px;
