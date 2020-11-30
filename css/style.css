@@ -67,48 +67,57 @@ hr {
   width: 100%;
   z-index: 1;
 }
+.about{
+    height: 400px;
+    width: 100%;
+}
+
 .description-left {
   width: 50%;
   
   float:left;
   padding-top: 15px;
-  padding-right: 10px;
+  /*padding-right: 10px;
   padding-left: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;*/
 }
 .barflair{
-  float:right;
+  float:right;*/
   width: 50%;
   padding-top: 15px;
-  padding-left: 10px;
-  margin-bottom: 20px;
+ /* padding-left: 10px;
+  margin-bottom: 20px;*/
 }
 .barflair img{
     opacity: 0.9;
     border-radius: 50%;
+    max-height: 300px;
 }
 .people {
   width: 50%;
-  padding-top: 15px;
+ /* padding-top: 15px;
   padding-right: 10px;
   padding-left: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+  float: left;*/
 }
 
 .people img{
     opacity: 0.9;
     border-radius: 40%;
+    max-height: 300px;
+    
 }
 
 .description-right {
   float:right;
   
   width: 50%;
-  padding-top: 15px;
+ /* padding-top: 15px;
   padding-left: 10px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;*/
 }
 
 .nav {
@@ -391,7 +400,9 @@ footer {
   .page-break {
     display: none;
   }
-
+.about{
+    height:auto;
+}
   .description{
       text-align: center;
       color: #005e7c;
