@@ -242,6 +242,11 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
+/*this solution was found on stack overflow*/
+ html, body{
+     overflow-x: hidden;
+     overflow-y: scroll !important;
+ }
   body {
     background: url("../assets/mobilehero.jpg") no-repeat center center fixed;
     width: 100%;
@@ -250,7 +255,7 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow-x: hidden;
+    
   }
 
  
@@ -425,18 +430,21 @@ footer {
   }
 
   .tour1{
-      margin: 300px 50px 10px 50px;
+      margin: 300px 10px 10px 20px;
       padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
+       width: 350px;
+
   }
 .tour2{
-margin: 30px 50px 10px 50px;
+margin: 30px 10px 10px 20px;
       padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
+       width: 350px;
 
 }
 
@@ -445,11 +453,17 @@ margin: 30px 50px 10px 50px;
 }
 
 .tour3{
-    margin: 30px 50px 10px 50px;
+    margin: 30px 10px 10px 20px;
       padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
+       width: 350px;
+}
+
+.tour1 img, .tour2 img, .tour3 img{
+    margin: 10px;
+    border: solid #040f16 10px;
 }
 
 .contact{
