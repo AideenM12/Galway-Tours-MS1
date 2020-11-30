@@ -82,7 +82,7 @@ hr {
   margin-bottom: 20px;*/
 }
 .barflair{
-  float:right;*/
+  float:right;
   width: 50%;
   padding-top: 15px;
  /* padding-left: 10px;
@@ -218,13 +218,16 @@ footer {
     width: 100%;
   background-color: #000022;
   color: #0094c6;
+  border-top: #005e7c solid 2px;
+  border-bottom: #005e7c solid 2px;
 
 }
 .testleft{
-    width: 50%;
+    width: 49%;
+    float: left;
 }
 .testright{
-    width: 50%;
+    width: 49%;
 }
 
 .tour1{
