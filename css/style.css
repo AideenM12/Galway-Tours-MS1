@@ -194,8 +194,8 @@ footer {
   background-color: #005e7c;
     color: #001242;
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 2px solid #040f16;
 }
 
@@ -207,8 +207,8 @@ footer {
    background-color: #005e7c;
     color: #001242;
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 20px;
     border: 2px solid #040f16;
 }
 .tour1 img, .tour2 img, .tour3 img{
