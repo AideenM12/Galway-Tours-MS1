@@ -282,6 +282,10 @@ footer {
     border-radius: 50%;
     border: solid #040f16 15px;
 }
+.galway{
+    width: 100%;
+    height: 500px;
+}
 .contact{
     background-color: #005e7c;
     color: #001242;
