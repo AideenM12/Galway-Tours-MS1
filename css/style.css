@@ -85,13 +85,16 @@ hr {
   float:right;
   width: 50%;
   padding-top: 15px;
- /* padding-left: 10px;
-  margin-bottom: 20px;*/
+  padding-left: 70px;
+ 
 }
 .barflair img{
     opacity: 0.9;
     border-radius: 50%;
     max-height: 300px;
+    
+    
+    
 }
 .people {
   width: 50%;
@@ -215,11 +218,12 @@ footer {
 }
 
 .testimonials{
-    width: 100%;
-  background-color: #000022;
-  color: #0094c6;
-  border-top: #005e7c solid 2px;
-  border-bottom: #005e7c solid 2px;
+   width: 100%;
+    background-color: #005e7c;
+    color: #001242;
+    border-top: #001242 solid 5px;
+    border-bottom: #001242 solid 5px;
+    height: auto;
 
 }
 .testleft{
@@ -228,6 +232,13 @@ footer {
 }
 .testright{
     width: 49%;
+    float:right;
+}
+.testimonials img{
+    margin-top: 10px;
+    border: 7px solid #001242;
+    width: 120px;
+    height: 120px;
 }
 
 .tour1{
@@ -321,7 +332,7 @@ footer {
      overflow-y: scroll !important;
  }
   body {
-    background: url("../assets/mobilehero.jpg") no-repeat center center fixed;
+    background: url("../assets/images/mobilehero.jpg") no-repeat center center fixed;
     width: 100%;
     height: 100%;
     -webkit-background-size: cover;
