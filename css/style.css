@@ -287,19 +287,20 @@ footer {
     height: 500px;
 }
 .contact{
-    background-color: #005e7c;
-    color: #001242;
+    background-color: #000022;
+    color: #0094c6;
     font-family: 'Special Elite', sans-serif;
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 20px;
+    
     padding: 20px;
     width: 75%;
+    height: 500px;
     position: relative;
     border-radius: 10%;
     clear: both;
     float: none;
+}
+.contactbg{
+    background: url("../assets/images/galway.jpg") no-repeat center center fixed; 
 }
 
 
@@ -567,6 +568,10 @@ margin: 30px 10px 10px 20px;
     color: #0094c6;
     font-size: 20px;
     
+}
+
+.contactbg{
+    background: none;
 }
   .foot-1 {
     height: 20px;
