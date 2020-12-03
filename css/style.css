@@ -382,10 +382,10 @@ body.contactpage{
     display: inline-block;
     font-size: 20px;
     clear: both;
-
+    font-weight: 600;
     width: 100%;
     position: fixed;
-    text-align: left;
+    text-align: center;
     padding-right: 7px;
     padding-left: 10px;
 
