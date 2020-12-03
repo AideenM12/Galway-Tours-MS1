@@ -555,15 +555,16 @@ margin: 100px 10px 100px 30px;
     margin: 10px;
     border: solid #040f16 10px;
 }
-.meetups3{
-    margin: 100px 10px 0px 30px;
-      padding: 20px;
+.meetups-mobile{
+    
        background-color: rgba(0, 18, 66, 0.9);
        color: #0094c6;
-       border-radius: 25%;
-       font-weight: 600;
-       width: 325px;
+       border: 2px solid #0094c6;
 
+}
+.meetups-mobile img{
+     margin: 5px;
+    border: solid #0094c6 10px;
 }
 
 .contact{
