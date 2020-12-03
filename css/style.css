@@ -464,13 +464,7 @@ body.contactpage{
 .about{
     height:auto;
 }
- /* .description{
-      text-align: center;
-      color: #005e7c;
-      font-weight: bold;
-      text-shadow: 4px 4px 4px #000022;
-      font-size: 40px;
-  }*/
+ 
    .description-left, .description-right{
        width: 100%;
        padding: 15px;
@@ -526,21 +520,21 @@ body.contactpage{
   }
 
   .tour1{
-      margin: 300px 10px 10px 20px;
+      margin: 300px 10px 100px 30px;
       padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
-       width: 350px;
+       width: 325px;
 
   }
 .tour2{
-margin: 30px 10px 10px 20px;
+margin: 100px 10px 100px 30px;
       padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
-       width: 350px;
+       width: 325px;
 
 }
 
@@ -549,17 +543,27 @@ margin: 30px 10px 10px 20px;
 }
 
 .tour3{
-    margin: 30px 10px 10px 20px;
+    margin: 100px 10px 0px 30px;
       padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
-       width: 350px;
+       width: 325px;
 }
 
 .tour1 img, .tour2 img, .tour3 img{
     margin: 10px;
     border: solid #040f16 10px;
+}
+.meetups3{
+    margin: 100px 10px 0px 30px;
+      padding: 20px;
+       background-color: rgba(0, 18, 66, 0.9);
+       color: #0094c6;
+       border-radius: 25%;
+       font-weight: 600;
+       width: 325px;
+
 }
 
 .contact{
