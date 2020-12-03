@@ -350,8 +350,8 @@ footer {
   /* Multiple backgrounds solution was found on Stack Overflow*/
   body.tours{
        background: url("../assets/images/whiskey.jpg") no-repeat center center fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -359,8 +359,8 @@ footer {
   }
 body.meetups{
        background: url("../assets/images/barflair.jpg") no-repeat center center fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -368,8 +368,8 @@ body.meetups{
   }
 body.contactpage{
        background: url("../assets/images/galway.jpg") no-repeat center center fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -440,6 +440,8 @@ body.contactpage{
     display: block;
     width: 100%;
     text-align: center;
+    
+}
   }
 
   /* This selector was created using dev tools on google chrome*/
