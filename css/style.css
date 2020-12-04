@@ -396,7 +396,7 @@ body.contactpage{
 
   .navbutton {
     font-size: 30px;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     text-align: center;
     padding-left: 20px;
@@ -410,12 +410,12 @@ body.contactpage{
     text-align: center;
     float: none;
     display: inline-block;
-    width: 100%;
+    width: 100vw;
     
   }
    .dropdown-menu.show {
     display: block;
-    width: 90%;
+    width: 100vw;
     text-align: center;
     line-height: 2.5;
     font-weight: 600;
@@ -430,7 +430,7 @@ body.contactpage{
     padding-top: 10px;
     padding-bottom: 25px;
     margin-top: 15px;
-    width: 90%;
+    width: 100vw;
   }
 
   .dropdown a:active {
@@ -472,28 +472,37 @@ body.contactpage{
 
   .row-margin {
     overflow: hidden;
+    height: 120px;
+    font-size: 15px;
+    font-weight: 400;
+    border-top: 5px #005e7c solid;
   }
 
   .foot-text {
-    font-size: 15px;
+    font-size: 20px;
     display: inline-block;
+    padding-left: 10px;
+    font-weight: 800;
   }
   .icons {
     float: none;
     word-spacing: 30px;
+    margin-bottom: 10px;
   }
-
+   
   .icons li a i {
-    height: 15px;
-    width: 15px;
-    font-size: 15px;
-    clear: both;
-    text-align: center;
-    padding-bottom: 15px;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    background-color: #0094c6;
+    padding: 15px 0px 15px 0px;
+    color: #001242;
+    border-radius: 50%;
+    line-height: 15px;
   }
 
   .tour1{
-      margin: 300px 30px 100px 40px;
+      margin: 300px 30px 100px 60px;
       padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
@@ -502,7 +511,7 @@ body.contactpage{
   }
 
 .tour2{
-    margin: 100px 30px 100px 40px;
+    margin: 100px 30px 100px 60px;
     padding: 20px;
     background-color: rgba(0, 94, 124, 0.9);
     border-radius: 25%;
@@ -515,7 +524,7 @@ body.contactpage{
 }
 
 .tour3{
-    margin: 100px 30px 100px 40px;
+    margin: 100px 30px 100px 60px;
     padding: 20px;
     background-color: rgba(0, 94, 124, 0.9);
     border-radius: 25%;
