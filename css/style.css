@@ -337,6 +337,7 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
 body.meetups{
@@ -347,6 +348,7 @@ body.meetups{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat:no-repeat;
   }
 
 body.contactpage{
@@ -357,6 +359,7 @@ body.contactpage{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat:no-repeat;
   }
 
  
