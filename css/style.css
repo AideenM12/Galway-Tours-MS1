@@ -505,21 +505,21 @@ body.contactpage{
   }
 
   .tour1{
-      margin: 300px 30px 100px 60px;
+      margin: 300px 30px 100px 30px;
       padding: 20px;
        background-color: rgba(0, 94, 124, 0.9);
        border-radius: 25%;
        font-weight: 600;
-       width: 325px;
+       
   }
 
 .tour2{
-    margin: 100px 30px 100px 60px;
+    margin: 100px 30px 100px 30px;
     padding: 20px;
     background-color: rgba(0, 94, 124, 0.9);
     border-radius: 25%;
     font-weight: 600;
-    width: 325px;
+    
 }
 
 .tour-heading{
@@ -527,12 +527,12 @@ body.contactpage{
 }
 
 .tour3{
-    margin: 100px 30px 100px 60px;
+    margin: 100px 30px 100px 30px;
     padding: 20px;
     background-color: rgba(0, 94, 124, 0.9);
     border-radius: 25%;
     font-weight: 600;
-    width: 325px;
+    
 }
 
 .tour1 img, .tour2 img, .tour3 img{
