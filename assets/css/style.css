@@ -319,7 +319,7 @@ footer {
      overflow-y: scroll !important;
  }
   body {
-    background: url("../assets/images/mobilehero.jpg") no-repeat center center fixed;
+    background: url("../../assets/images/mobilehero.jpg") no-repeat center center fixed;
     width: 100vw;
     height: 100vh;
     -webkit-background-size: cover;
@@ -341,7 +341,7 @@ footer {
   }
 
 body.meetups{
-    background: url("../assets/images/barflair.jpg") no-repeat center center fixed;
+    background: url("../../assets/images/barflair.jpg") no-repeat center center fixed;
     width: 100vw;
     height: 100vh;
     -webkit-background-size: cover;
@@ -352,7 +352,7 @@ body.meetups{
   }
 
 body.contactpage{
-       background: url("../assets/images/galway.jpg") no-repeat center center fixed;
+    background: url("../../assets/images/galway.jpg") no-repeat center center fixed;
     width: 100vw;
     height: 100vh;
     -webkit-background-size: cover;
