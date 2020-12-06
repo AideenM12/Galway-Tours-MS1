@@ -47,9 +47,7 @@ body {
   border-bottom: 2px #005e7c solid;
 }
 
-h1,
-h2,
-h3 {
+ h1, h2, h3,h5 {
   font-family: "Special Elite", sans-serif;
 }
 
@@ -252,7 +250,7 @@ footer {
     width: 100px;
     height: 120px;
 }
-
+/*----------------------------------Tour Page*/
 .tour1{
     margin-top: 60px; 
     margin-bottom: 20px;
@@ -291,6 +289,38 @@ footer {
     height: 200px;
     border-radius: 50%;
     border: solid #040f16 15px;
+}
+.tour-list{
+    font-family:'Zilla Slab', sans-serif;
+    font-size: 20px;
+    list-style-type: upper-roman;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.tour-list-item{
+    text-align: center;
+}
+.tour-heading{
+    font-weight:600;
+    font-size: 35px;
+}
+.tour3 h5{
+    font-weight: 600;
+    font-size: 25px;
+}
+.tour1 p{
+    margin-top: 150px;
+}
+
+.tour2 p{
+    margin-top: 100px;
+}
+
+.price{
+    font-family: 'Special Elite', san-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .galway{
