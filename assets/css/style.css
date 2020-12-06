@@ -173,6 +173,10 @@ footer {
   font-weight: bold;
   text-decoration: none;
 }
+/* This code was taken from the Rosie project by Matt Rudge CI */
+.hvr-sweep-to-right:before {
+    background: rgba(0, 0, 0, 0.2);
+}
 
 
 .icons {
@@ -198,21 +202,30 @@ footer {
     border-top: #001242 solid 5px;
     border-bottom: #001242 solid 5px;
     height: auto;
+    
 
 }
 .testleft{
     width: 49%;
     float: left;
+    padding-left: 10px;       
 }
+
 .testright{
     width: 49%;
-    float:right;
+    float:right;       
 }
+
+.blockquote{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
 .testimonials img{
     margin-top: 10px;
     border: 7px solid #001242;
-    width: 120px;
-    height: 140px;
+    width: 100px;
+    height: 120px;
 }
 
 .tour1{
@@ -276,12 +289,29 @@ footer {
     border-radius: 10%;
     clear: both;
     float: none;
+
 }
 
 .contactbg{
-    background: url("../assets/images/galway.jpg") no-repeat center center fixed; 
+    background: url("../../assets/images/galway.jpg") no-repeat center center fixed; 
+}
+.btn{
+    background-color: #0094c6;
+    color: #001242;
+    display: block;
+    margin-top: 40px;
+    float:none;
+    clear:both;
+    margin-left:auto;
+    margin-right: auto;
 }
 
+.btn a:hover {
+  color: #040f16;
+  font-weight: bold;
+  text-decoration: none;
+  display:block;
+}
 
 @media only screen and (min-width: 768px) {
   h1 {
@@ -504,6 +534,11 @@ body.contactpage{
     line-height: 15px;
   }
 
+  .page-headings{
+      background-color: #001242;
+    
+  }
+
   .tour1{
       margin: 300px 30px 100px 30px;
       padding: 20px;
@@ -557,6 +592,7 @@ body.contactpage{
     background-color: rgba(0, 0, 34, 0.9);
     color: #0094c6;
     font-size: 20px;
+    width: 80vw;
 }
 
 .contactbg{
