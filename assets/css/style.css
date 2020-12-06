@@ -114,9 +114,7 @@ p {
 .nav-link a:hover{
     color: #0094c6;
 }
-.menu-style a:link:{
-color: #0094c6;
-}
+
 
 .dropdown-menu {
   background-color: #000022;
@@ -360,9 +358,23 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+.about {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
 }
 
+.testimonials h1{
+    text-align:center;
+}
+.dropdown-menu.show{
+    line-height: 4;
+    font-size: 20px;
+}
+.tour1 img, .tour2 img, .tour3 img{
+    width: 200px;
+}
 @media only screen and (max-width: 576px){
 /*this solution was found on stack overflow*/
  html, body{
