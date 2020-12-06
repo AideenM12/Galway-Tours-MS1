@@ -108,9 +108,22 @@ p {
 .dropdown{
     color: #0094c6;
 }
+.nav-pills .nav-link .dropdown-toggle a:link{
+    color: #0094c6;
+}
+.nav-pills .nav-link .dropdown-toggle a:hover{
+    color: #0094c6;
+}
+.menu-style a:link:{
+color: #0094c6;
+}
+
 .dropdown-menu {
   background-color: #000022;
   float: right;
+  padding:0;
+  margin: 0;
+  border: 0;
 }
 .dropdown-item {
   color: #001242;
