@@ -105,20 +105,19 @@ p {
   float: right;
   font-size: 30px;
 }
-.dropdown{
-    color: #0094c6;
-}
-.nav-link .dropdown-toggle a:link{
-    color: #0094c6;
-}
-.nav-link a:hover{
-    color: #0094c6;
-}
 
+
+.nav-link{
+    color: #0094c6;
+}
+.nav-link:hover{
+    background-color:#0094c6;
+    color: #001242;
+}
 
 .dropdown-menu {
   background-color: #000022;
-  float: right;
+  float: none;
   padding:0;
   margin: 0;
   border: 0;
@@ -127,9 +126,16 @@ p {
   color: #001242;
   font-family: "Special Elite", sans-serif;
 }
+.dropdown-item:hover{
+    background-color:#001242;
+    color: #005e7c;
+}
+
 
 .dropdown-menu.show {
   background-color: #005e7c;
+  line-height: 4;
+  font-size: 30px;
 }
 
 .nav-pills .nav-link.active,
@@ -462,16 +468,10 @@ body.contactpage{
     padding-bottom: 5px;
   }
 
-  .navbutton {
-    font-size: 30px;
-    width: 100vw;
-    position: fixed;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+ 
     
     
-  }
+  
 
   .dropdown {
     font-size: 30px;
@@ -480,6 +480,10 @@ body.contactpage{
     display: inline-block;
     width: 100vw;
     
+  }
+
+  .dropdown-item{
+      padding: .25rem;
   }
    .dropdown-menu.show {
     display: block;
@@ -495,16 +499,25 @@ body.contactpage{
   .nav-pills .show > .nav-link {
     color: #001242;
     background-color: #005e7c;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 25px;
     margin-top: 15px;
     width: 100vw;
+    margin-left: auto;
   }
 
   .dropdown a:active {
     background-color: #005e7c;
     color: #001242;
   }
+  .nav-link:hover {
+    background-color: #0094c6;
+    color: #001242;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
   
   .page-break {
     display: none;
