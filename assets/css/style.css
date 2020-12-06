@@ -189,7 +189,6 @@ footer {
   height: 30px;
   width: 30px;
   font-size: 20px;
-
   background-color: #0094c6;
     padding: 15px 0px 15px 0px;
     color: #001242;
@@ -200,7 +199,8 @@ footer {
 }
 
 .icons li a i:hover {
-  color: #005e7c;
+  color: #0094c6;
+  background-color: #001242;
 }
 
 .testimonials{
@@ -545,6 +545,7 @@ body.contactpage{
     color: #001242;
     border-radius: 50%;
     line-height: 15px;
+    margin: 5px;
   }
 
   .tour1{
