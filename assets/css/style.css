@@ -312,6 +312,9 @@ footer {
     font-size: 20px;
     font-weight: 500;
 }
+.meetups-mobile p{
+    margin-top: 20px;
+}
 
 .galway{
     width: 100%;
@@ -358,7 +361,7 @@ footer {
   display:block;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width:992px) {
   h1 {
     font-size: 35px;
   }
@@ -404,6 +407,7 @@ footer {
 .tour1 img, .tour2 img, .tour3 img{
     width: 200px;
 }
+
 }
 
 @media only screen and (max-width: 576px){
