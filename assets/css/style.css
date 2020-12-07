@@ -7,6 +7,8 @@ body {
   margin: 0;
 }
 
+/*----------------------------------------------Header*/
+
 /* Logo code was inspired by the love running page provided by the Code Institute */
 .logo {
   height: 600px;
@@ -18,10 +20,7 @@ body {
   float: right;
   padding-left: 30px;
   padding-right: 35px;
-
-   
 }
-
 .logo-outer {
   height: 600px;
   width: 100%;
@@ -30,12 +29,10 @@ body {
   margin-right: 5px;
   clear: both;
 }
-
 .banner h1 {
   text-align: justify;
   padding-top: 5px;
 }
-
 .banner {
   width: 100%;
   background-color: #000022;
@@ -45,118 +42,12 @@ body {
   z-index: 1;
   border-bottom: 2px #005e7c solid;
 }
-
  h1, h2, h3,h5 {
   font-family: "Special Elite", sans-serif;
 }
-
 p {
   font-family: "Zilla Slab", sans-serif;
 }
-
-.about{
-    height: 400px;
-    width: 100%;
-}
-
-.description-left {
-  width: 50%;
-  float:left;
-  padding-top: 15px;
-}
-
-.barflair{
-  float:right;
-  width: 50%;
-  padding-top: 15px;
-  padding-left: 70px;
-}
-
-.barflair img{
-    opacity: 0.9;
-    border-radius: 50%;
-    max-height: 300px;
-}
-
-.people {
-  width: 50%;
-  float: left;
-}
-
-.people img{
-    opacity: 0.9;
-    border-radius: 40%;
-    max-height: 300px;
-}
-
-.description-right {
-  float:right;  
-  width: 50%;
-}
-
-.nav {
-  text-align: right;
-  font-family: "Special Elite", sans-serif;
-  color: #0094c6;
-  background-color: #000022;
-  float: right;
-  font-size: 30px;
-}
-
-.nav-link{
-    color: #0094c6;
-}
-.nav-link:hover{
-    background-color:#0094c6;
-    color: #001242;
-}
-
-.dropdown-item {
-  color: #001242;
-  font-family: "Special Elite", sans-serif;
-}
-.dropdown-item:hover{
-    background-color:#001242;
-    color: #005e7c;
-}
-
-.dropdown-menu.show {
-  background-color: #005e7c;
-  line-height: 4;
-  font-size: 30px;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: #001242;
-  background-color: #005e7c;
-}
-
-footer {
-  font-family: "Special Elite", sans-serif;
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-
-.row-margin {
-  background-color: #000022;
-  border-top: 2px #005e7c solid;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 0;
-  padding-right: 10px;
-  margin: 0;
-  width: 100%;
-  height: auto;
-}
-
-.foot-text {
-  font-family: "Special Elite", sans-serif;
-  font-size: 20px;
-  padding-left: 25px;
-}
-
 .page-break {
   height: 60px;
   width: 100%;
@@ -168,11 +59,9 @@ footer {
   font-family: "Special Elite", sans-serif;
   font-size: 20px;
 }
-
 .page-break a {
   color: #001242;
 }
-
 .page-break a:hover {
   color: #040f16;
   font-weight: bold;
@@ -182,11 +71,66 @@ footer {
 .hvr-sweep-to-right:before {
     background: rgba(0, 0, 0, 0.2);
 }
-
+/*---------------Navigation-------*/
+.nav {
+  text-align: right;
+  font-family: "Special Elite", sans-serif;
+  color: #0094c6;
+  background-color: #000022;
+  float: right;
+  font-size: 30px;
+}
+.nav-link{
+    color: #0094c6;
+}
+.nav-link:hover{
+    background-color:#0094c6;
+    color: #001242;
+}
+.dropdown-item {
+  color: #001242;
+  font-family: "Special Elite", sans-serif;
+}
+.dropdown-item:hover{
+    background-color:#001242;
+    color: #005e7c;
+}
+.dropdown-menu.show {
+  background-color: #005e7c;
+  line-height: 4;
+  font-size: 30px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #001242;
+  background-color: #005e7c;
+}
+/*------------------------Footer----------*/
+footer {
+  font-family: "Special Elite", sans-serif;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.row-margin {
+  background-color: #000022;
+  border-top: 2px #005e7c solid;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 0;
+  padding-right: 10px;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.foot-text {
+  font-family: "Special Elite", sans-serif;
+  font-size: 20px;
+  padding-left: 25px;
+}
 .icons {
   float: right;
 }
-
 .icons li a i {
   padding-top: 10px;
   line-height: 10px;
@@ -194,52 +138,80 @@ footer {
   width: 30px;
   font-size: 20px;
   background-color: #0094c6;
-    padding: 15px 0px 15px 0px;
-    color: #001242;
-    border-radius: 50%;
-    margin: 10px;
-    text-align: center;
-    padding-top: 10px;
+  padding: 15px 0px 15px 0px;
+  color: #001242;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  padding-top: 10px;
 }
-
 .icons li a i:hover {
   color: #0094c6;
   background-color: #001242;
 }
-
+/*-------------------------------Home page body-------*/
+.about{
+    height: 400px;
+    width: 100%;
+}
+.description-left {
+  width: 50%;
+  float:left;
+  padding-top: 15px;
+}
+.barflair{
+  float:right;
+  width: 50%;
+  padding-top: 15px;
+  padding-left: 70px;
+}
+.barflair img{
+    opacity: 0.9;
+    border-radius: 50%;
+    max-height: 300px;
+}
+.people {
+  width: 50%;
+  float: left;
+}
+.people img{
+    opacity: 0.9;
+    border-radius: 40%;
+    max-height: 300px;
+}
+.description-right {
+  float:right;  
+  width: 50%;
+}
+/*-------------------------------Testimonials-------------*/
 .testimonials{
    width: 100%;
-    background-color: #005e7c;
-    color: #001242;
-    border-top: #001242 solid 5px;
-    border-bottom: #001242 solid 5px;
-    height: auto;
-    
-
+   background-color: #005e7c;
+   color: #001242;
+   border-top: #001242 solid 5px;
+   border-bottom: #001242 solid 5px;
+   height: auto;
 }
 .testleft{
-    width: 49%;
-    float: left;
-    padding-left: 10px;       
+   width: 49%;
+   float: left;
+   padding-left: 10px;       
 }
-
 .testright{
     width: 49%;
     float:right;       
 }
-
 .blockquote{
     font-size: 20px;
     margin-bottom: 2px;
 }
-
 .testimonials img{
     margin-top: 10px;
     border: 7px solid #001242;
     width: 100px;
     height: 120px;
 }
-/*----------------------------------Tour Page*/
+/*------------------------------------------Tour Page---------*/
 .tour1{
     margin-top: 60px; 
     margin-bottom: 20px;
@@ -249,21 +221,19 @@ footer {
     padding-left: 30px; 
     border: 2px solid #040f16; 
 }
-
 .tour2{
-     margin-top: 60px;
-     margin-bottom: 20px;
-     background-color: #005e7c;
-     color: #001242;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #005e7c;
+    color: #001242;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     border: 2px solid #040f16;
 }
-
 .tour3{
-     margin-top: 60px;
-     margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     background-color: #005e7c;
     color: #001242;
     text-align: center;
@@ -271,7 +241,6 @@ footer {
     padding-right: 20px;
     border: 2px solid #040f16;
 }
-
 .tour1 img, .tour2 img, .tour3 img{
     margin: 15px;
     width: 250px;
@@ -279,7 +248,6 @@ footer {
     border-radius: 50%;
     border: solid #040f16 15px;
 }
-
 .tour-list{
     font-family:'Zilla Slab', sans-serif;
     font-size: 20px;
@@ -287,7 +255,6 @@ footer {
     padding: 0;
     list-style-position: inside;
 }
-
 .tour-list-item{
     text-align: center;
 }
@@ -302,11 +269,9 @@ footer {
 .tour1 p{
     margin-top: 150px;
 }
-
 .tour2 p{
     margin-top: 100px;
 }
-
 .price{
     font-family: 'Special Elite', san-serif;
     font-size: 20px;
@@ -315,17 +280,15 @@ footer {
 .meetups-mobile p{
     margin-top: 20px;
 }
-
+/*-------------------------------Contact page------------*/
 .galway{
     width: 100%;
     height: 600px;
 }
-
 .galway img{
     width: 100%;
     height:600px;
 }
-
 .contact{
     background-color: #000022;
     color: #0094c6;
@@ -338,11 +301,9 @@ footer {
     clear: both;
     float: none;
 }
-
 .contactbg{
     background: url("../../assets/images/galway.jpg") no-repeat center center fixed; 
 }
-
 .btn{
     background-color: #0094c6;
     color: #001242;
@@ -353,7 +314,6 @@ footer {
     margin-left:auto;
     margin-right: auto;
 }
-
 .btn a:hover {
   color: #040f16;
   font-weight: bold;
@@ -362,15 +322,13 @@ footer {
 }
 
 @media only screen and (min-width: 577px) and (max-width:992px) {
-  h1 {
+h1 {
     font-size: 35px;
   }
-
-  .tour1, .tour2, .tour3{
-      width: 33%;
+.tour1, .tour2, .tour3{
+    width: 33%;
   }
-
-  .people {
+.people {
   width: 50%;
   padding-top: 15px;
   padding-right: 10px;
@@ -378,32 +336,27 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .description-right {
   float:right;
-  width: 50%;
+  width: 100%;
   padding-top: 15px;
   padding-left: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .about {
     height: 400px;
     width: 100%;
     margin-bottom: 35px;
     padding-bottom: 15px;
 }
-
 .testimonials h1{
     text-align:center;
 }
-
 .dropdown-menu.show{
     line-height: 4;
     font-size: 20px;
 }
-
 .tour1 img, .tour2 img, .tour3 img{
     width: 200px;
 }
@@ -411,24 +364,24 @@ footer {
 }
 
 @media only screen and (max-width: 576px){
+/*----------------------------------------------Backgrounds------*/
 
 /*this solution was found on stack overflow*/
- html, body{
-     overflow-x: hidden;
-     overflow-y: scroll !important;
- }
-  body {
+html, body{
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+}
+body {
     background: url("../../assets/images/mobilehero.jpg") no-repeat center center fixed;
     width: 100vw;
     height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    }
+}
 
   /* Multiple backgrounds solution was found on Stack Overflow*/
-  body.tours{
+body.tours{
     background: url("../../assets/images/whiskey.jpg") no-repeat center center fixed;
     width: 100vw;
     height: 100vh;
@@ -437,8 +390,7 @@ footer {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
+}
 body.meetups{
     background: url("../../assets/images/barflair.jpg") no-repeat center center fixed;
     width: 100vw;
@@ -448,8 +400,7 @@ body.meetups{
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
-  }
-
+}
 body.contactpage{
     background: url("../../assets/images/galway.jpg") no-repeat center center fixed;
     width: 100vw;
@@ -459,9 +410,10 @@ body.contactpage{
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
-  }
+}
 
-  .banner {
+/*------------------------------------Headers----------------*/
+.banner {
     display: inline-block;
     clear: both;
     font-weight: 600;
@@ -473,28 +425,27 @@ body.contactpage{
     margin-bottom: 5px;
     z-index: 1;
     border-bottom: 5px #005e7c solid;
-  }
+}
+.banner h1{
+    font-size: 30px;
+    font-weight: 600;
+    word-spacing: 5px;
+    text-align: center;
+    line-height: 1;
+}
 
-  .banner h1{
-      font-size: 30px;
-      font-weight: 600;
-      word-spacing: 5px;
-      text-align: center;
-      line-height: 1;
-  }
-
-  .nav {
+/*----------------------------------------Navigation-----------------*/
+.nav {
     -ms-flex-wrap: wrap;
     flex-wrap: nowrap;
-     list-style: none;
+    list-style: none;
     font-family: "Special Elite", sans-serif;
     text-align: center;
     justify-content: center;
     float: none;
     line-height: 0;
     padding-bottom: 5px;
-  }
-  
+}
 .dropdown {
     font-size: 30px;
     text-align: center;
@@ -502,12 +453,10 @@ body.contactpage{
     display: inline-block;
     width: 100vw;
 }
-
-  .dropdown-item{
-      padding: .25rem;
-  }
-
-   .dropdown-menu.show {
+.dropdown-item{
+    padding: .25rem;
+}
+.dropdown-menu.show {
     display: block;
     width: 100vw;
     text-align: center;
@@ -515,10 +464,8 @@ body.contactpage{
     font-weight: 600;
     font-size: 30px;
 }
-  
-  /* This selector was created using dev tools on google chrome*/
-  .nav-pills .nav-link.active,
-  .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
     color: #001242;
     background-color: #005e7c;
     padding-top: 20px;
@@ -526,14 +473,12 @@ body.contactpage{
     margin-top: 15px;
     width: 100vw;
     margin-left: auto;
-  }
-
-  .dropdown a:active {
+}
+.dropdown a:active {
     background-color: #005e7c;
     color: #001242;
-  }
-
-  .nav-link:hover {
+}
+.nav-link:hover {
     background-color: #0094c6;
     color: #001242;
     padding-top: 20px;
@@ -541,34 +486,23 @@ body.contactpage{
     margin-left: 100px;
     margin-right: 100px;
 }
-  
-  .page-break {
+.page-break {
     display: none;
-  }
-  
-.page-headings{
-    margin: 40px;
 }
 
-.page-headings h1{
-    margin-top: 20px;
-}
-
+/*--------------------------Home Page Body------------*/
 .about{
     height:auto;
 }
-
 .description-left, .description-right{
     width: 100%;
     padding: 15px;
 }
-
 .description-left h3, .description-right h3{
     font-size: 30px;
     font-weight: 700;
     text-align: center;
 }
-
 .mobile-description{
    width: 100%;
    margin-top: 150px;
@@ -581,30 +515,28 @@ body.contactpage{
    font-weight: 600;
    border: solid 2px #001242;
    padding: 20px 15px;
- }
+}
 
+/*--------------------------------------Footer------------*/
   .row-margin {
     overflow: hidden;
     height: 120px;
     font-size: 15px;
     font-weight: 400;
     border-top: 5px #005e7c solid;
-  }
-
-  .foot-text {
+}
+.foot-text {
     font-size: 20px;
     display: inline-block;
     padding-left: 10px;
     font-weight: 800;
-  }
-
-  .icons {
+}
+.icons {
     float: none;
     word-spacing: 30px;
     margin-bottom: 10px;
-  }
-   
-  .icons li a i {
+}
+.icons li a i {
     height: 40px;
     width: 40px;
     font-size: 30px;
@@ -614,29 +546,38 @@ body.contactpage{
     border-radius: 50%;
     line-height: 15px;
     margin: 5px;
+}
+.foot-1 {
+   height: 20px;
+   text-align: center;
+   position: relative;
+}
+
+.foot-2 {
+   text-align: center;
+   height: 30px;
+   position: relative;
+   padding-bottom: 5px;
   }
 
-  .tour1{
+/*------------------------------------------Tours-----------*/
+.tour1{
    margin: 300px 30px 100px 30px;
    padding: 20px;
    background-color: rgba(0, 94, 124, 0.9);
    border-radius: 25%;
   font-weight: 600;
-  }
-
+}
 .tour2{
     margin: 100px 30px 100px 30px;
     padding: 20px;
     background-color: rgba(0, 94, 124, 0.9);
     border-radius: 25%;
     font-weight: 600;
-    
 }
-
 .tour-heading{
     font-weight: 600;
 }
-
 .tour3{
     margin: 100px 30px 250px 30px;
     padding: 20px;
@@ -650,23 +591,23 @@ body.contactpage{
 .tour2 p {
     margin-top: 10px;
 }
-
 .tour1 img, .tour2 img, .tour3 img{
     margin: 10px;
     border: solid #040f16 10px;
 }
 
+/*-------------------------------------Meet-Ups-------*/
 .meetups-mobile{
     background-color: rgba(0, 18, 66, 0.9);
     color: #0094c6;
     border: 2px solid #0094c6;
 }
-
 .meetups-mobile img{
     margin: 5px;
     border: solid #0094c6 10px;
 }
 
+/*--------------------------------------Contact Page------------*/
 .contact{
     margin-top: 240px;
     margin-bottom: 75px;
@@ -675,22 +616,8 @@ body.contactpage{
     font-size: 20px;
     width: 80vw;
 }
-
 .contactbg{
     background: none;
 }
-
-.foot-1 {
-   height: 20px;
-   text-align: center;
-   position: relative;
-}
-
-.foot-2 {
-   text-align: center;
-   height: 30px;
-   position: relative;
-   padding-bottom: 5px;
-  }
 
 }
