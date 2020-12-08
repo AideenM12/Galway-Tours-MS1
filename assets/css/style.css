@@ -155,7 +155,7 @@ footer {
   float:left;
   padding-top: 15px;
 }
-.barflair{
+/*.barflair{
   float:right;
   width: 50%;
   padding-top: 15px;
@@ -165,7 +165,7 @@ footer {
     opacity: 0.9;
     border-radius: 50%;
     max-height: 300px;
-}
+}*/
 .people {
   width: 50%;
   float: left;
