@@ -68,14 +68,20 @@ p {
     background: rgba(0, 0, 0, 0.2);
 }
 /*---------------Navigation-------*/
-.nav {
+nav {
   text-align: right;
   font-family: "Special Elite", sans-serif;
   color: #0094c6;
   background-color: #000022;
   float: right;
-  font-size: 30px;
+  font-size: 20px;
 }
+.fa-bars{
+    font-weight: 900;
+    color: #0094c6;
+    font-size: 30px;
+}
+/*
 .nav-link{
     color: #0094c6;
 }
@@ -100,7 +106,7 @@ p {
 .nav-pills .show > .nav-link {
   color: #001242;
   background-color: #005e7c;
-}
+}*/
 /*------------------------Footer----------*/
 footer {
   font-family: "Special Elite", sans-serif;
@@ -147,6 +153,8 @@ footer {
 }
 /*-------------------------------Home page body-------*/
 .about{
+    display: flex;
+    align-items: center;
     height: 400px;
     width: 100%;
 }
@@ -155,7 +163,7 @@ footer {
   float:left;
   padding-top: 15px;
 }
-/*.barflair{
+.barflair{
   float:right;
   width: 50%;
   padding-top: 15px;
@@ -165,7 +173,7 @@ footer {
     opacity: 0.9;
     border-radius: 50%;
     max-height: 300px;
-}*/
+}
 .people {
   width: 50%;
   float: left;
@@ -431,7 +439,11 @@ body.contactpage{
 }
 
 /*----------------------------------------Navigation-----------------*/
-.nav {
+nav{
+    float:right;
+}
+
+/*.nav {
     -ms-flex-wrap: wrap;
     flex-wrap: nowrap;
     list-style: none;
@@ -484,7 +496,7 @@ body.contactpage{
 }
 .page-break {
     display: none;
-}
+}*/
 
 /*--------------------------Home Page Body------------*/
 .about{
