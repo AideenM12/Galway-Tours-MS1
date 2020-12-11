@@ -81,15 +81,15 @@ nav {
     color: #0094c6;
     font-size: 30px;
 }
-/*
+
 .nav-link{
     color: #0094c6;
 }
 .nav-link:hover{
-    background-color:#0094c6;
-    color: #001242;
+    color:#005e7c;
+    
 }
-.dropdown-item {
+/*.dropdown-item {
   color: #001242;
   font-family: "Special Elite", sans-serif;
 }
@@ -364,9 +364,18 @@ h1 {
 .tour1 img, .tour2 img, .tour3 img{
     width: 200px;
 }
-
+button.navbar-toggler {
+    float: right;
+    padding: 10px;
+    margin: 20px;
 }
-
+.navbar-toggler:focus {
+    
+   outline: 5px auto #000022;
+    
+    
+}
+}
 @media only screen and (max-width: 576px){
 /*----------------------------------------------Backgrounds------*/
 
@@ -426,21 +435,26 @@ body.contactpage{
     text-align: center;
     padding-right: 7px;
     padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 5px;
     z-index: 1;
     border-bottom: 5px #005e7c solid;
 }
 .banner h1{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     word-spacing: 5px;
-    text-align: center;
+    text-align: left;
     line-height: 1;
 }
 
 /*----------------------------------------Navigation-----------------*/
 nav{
     float:right;
+}
+.navbar-toggler{
+    padding: 0;
 }
 
 /*.nav {
