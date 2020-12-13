@@ -155,13 +155,11 @@ footer {
     max-width: 290px;
     padding-bottom: 10px;
 }
-.people {
-  width: 50%;
-  float: left;
-}
+
+
 .people img{
-    opacity: 0.9;
-    border-radius: 40%;
+    
+    
     max-height: 300px;
 }
 .description-right {
@@ -187,8 +185,8 @@ footer {
     float:right;       
 }
 .blockquote{
-    font-size: 20px;
-    margin-bottom: 2px;
+    font-size: 15px;
+    
 }
 .testimonials img{
     margin-top: 10px;
@@ -494,6 +492,8 @@ nav{
 /*--------------------------Home Page Body------------*/
 .about{
     height:auto;
+    width: 100%;
+    display: block;
 }
 .description-left, .description-right{
     width: 100%;
@@ -504,7 +504,7 @@ nav{
     font-weight: 700;
     text-align: center;
 }
-.mobile-description{
+.mobile-description {
    width: 100%;
    margin-top: 150px;
    height: auto;
@@ -516,6 +516,7 @@ nav{
    font-weight: 600;
    border: solid 2px #001242;
    padding: 20px 15px;
+   display: block;
 }
 
 /*--------------------------------------Footer------------*/
