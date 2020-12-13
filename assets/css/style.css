@@ -86,27 +86,12 @@ nav {
     color: #0094c6;
 }
 .nav-link:hover{
-    color:#005e7c;
-    
+    color:#005e7c;    
 }
-/*.dropdown-item {
-  color: #001242;
-  font-family: "Special Elite", sans-serif;
+button .navbar-toggler:focus {
+    outline: none;
 }
-.dropdown-item:hover{
-    background-color:#001242;
-    color: #005e7c;
-}
-.dropdown-menu.show {
-  background-color: #005e7c;
-  line-height: 4;
-  font-size: 30px;
-}
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: #001242;
-  background-color: #005e7c;
-}*/
+
 /*------------------------Footer----------*/
 footer {
   font-family: "Special Elite", sans-serif;
@@ -155,24 +140,20 @@ footer {
 .about{
     display: flex;
     align-items: center;
-    height: 400px;
+    height: auto;
     width: 100%;
+    margin: 20px;
 }
 .description-left {
-  width: 50%;
+  width: 100%;
   float:left;
-  padding-top: 15px;
-}
-.barflair{
-  float:right;
-  width: 50%;
-  padding-top: 15px;
-  padding-left: 70px;
+  
+  text-align: center;
 }
 .barflair img{
-    opacity: 0.9;
-    border-radius: 50%;
-    max-height: 300px;
+    max-height: 240px;
+    max-width: 290px;
+    padding-bottom: 10px;
 }
 .people {
   width: 50%;
@@ -349,7 +330,7 @@ h1 {
   margin-bottom: 20px;
 }
 .about {
-    height: 400px;
+    height: 350px;
     width: 100%;
     margin-bottom: 35px;
     padding-bottom: 15px;
@@ -357,10 +338,8 @@ h1 {
 .testimonials h1{
     text-align:center;
 }
-.dropdown-menu.show{
-    line-height: 4;
-    font-size: 20px;
-}
+
+
 .tour1 img, .tour2 img, .tour3 img{
     width: 200px;
 }
@@ -372,10 +351,10 @@ button.navbar-toggler {
 .navbar-toggler:focus {
     
    outline: 5px auto #000022;
-    
-    
+ 
+   }
 }
-}
+
 @media only screen and (max-width: 576px){
 /*----------------------------------------------Backgrounds------*/
 
