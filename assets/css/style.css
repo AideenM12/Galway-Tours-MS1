@@ -81,7 +81,6 @@ nav {
     color: #0094c6;
     font-size: 30px;
 }
-
 .nav-link{
     color: #0094c6;
 }
@@ -147,7 +146,6 @@ footer {
 .description-left {
   width: 100%;
   float:left;
-  
   text-align: center;
 }
 .barflair img{
@@ -155,16 +153,8 @@ footer {
     max-width: 290px;
     padding-bottom: 10px;
 }
-
-
 .people img{
-    
-    
     max-height: 300px;
-}
-.description-right {
-  float:right;  
-  width: 50%;
 }
 /*-------------------------------Testimonials-------------*/
 .testimonials{
@@ -174,28 +164,9 @@ footer {
    border: #001242 solid 5px;
    border-bottom: #001242 solid 5px;
    height: auto;
-   margin-left: 20px;
-   margin-right: 20px;
-   padding-right: 10px;
-}
-.testleft{
-   width: 49%;
-   float: left;
-   padding-left: 10px;       
-}
-.testright{
-    width: 49%;
-    float:right;       
 }
 .blockquote{
     font-size: 15px;
-    
-}
-.test-image{
-    float: left;
-}
-.test-text{
-    float:right
 }
 .testimonials img{
     margin-top: 10px;
@@ -259,15 +230,23 @@ footer {
     font-size: 25px;
 }
 .tour1 p{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .tour2 p{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .price{
     font-family: 'Special Elite', san-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
+}
+.tour1 i{
+    padding-top: 30px;
+}
+.tour1 i,.tour2 i, .tour3 i{
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
 }
 .meetups-mobile p{
     margin-top: 20px;
@@ -319,34 +298,18 @@ h1 {
   }
 .tour1, .tour2, .tour3{
     width: 33%;
-  }
-.people {
-  width: 50%;
-  padding-top: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
-.description-right {
+.description-left {
   float:right;
   width: 100%;
-  padding-top: 15px;
-  padding-left: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 .about {
-    height: 350px;
+    height: auto;
     width: 100%;
-    margin-bottom: 35px;
-    padding-bottom: 15px;
 }
 .testimonials h1{
     text-align:center;
 }
-
-
 .tour1 img, .tour2 img, .tour3 img{
     width: 200px;
 }
@@ -356,10 +319,8 @@ button.navbar-toggler {
     margin: 20px;
 }
 .navbar-toggler:focus {
-    
    outline: 5px auto #000022;
- 
-   }
+}
 }
 
 @media only screen and (max-width: 576px){
@@ -443,61 +404,6 @@ nav{
     padding: 0;
 }
 
-/*.nav {
-    -ms-flex-wrap: wrap;
-    flex-wrap: nowrap;
-    list-style: none;
-    font-family: "Special Elite", sans-serif;
-    text-align: center;
-    justify-content: center;
-    float: none;
-    line-height: 0;
-    padding-bottom: 5px;
-}
-.dropdown {
-    font-size: 30px;
-    text-align: center;
-    float: none;
-    display: inline-block;
-    width: 100vw;
-}
-.dropdown-item{
-    padding: .25rem;
-}
-.dropdown-menu.show {
-    display: block;
-    width: 100vw;
-    text-align: center;
-    line-height: 2.5;
-    font-weight: 600;
-    font-size: 30px;
-}
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-    color: #001242;
-    background-color: #005e7c;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    margin-top: 15px;
-    width: 100vw;
-    margin-left: auto;
-}
-.dropdown a:active {
-    background-color: #005e7c;
-    color: #001242;
-}
-.nav-link:hover {
-    background-color: #0094c6;
-    color: #001242;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.page-break {
-    display: none;
-}*/
-
 /*--------------------------Home Page Body------------*/
 .about{
     height:auto;
@@ -508,7 +414,7 @@ nav{
     width: 100%;
     padding: 15px;
 }
-.description-left h3, .description-right h3{
+.description-left h3{
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -573,14 +479,14 @@ nav{
 
 /*------------------------------------------Tours-----------*/
 .tour1{
-   margin: 300px 30px 100px 30px;
+   margin: 300px 35px 100px 35px;
    padding: 20px;
    background-color: rgba(0, 94, 124, 0.9);
    border-radius: 25%;
   font-weight: 600;
 }
 .tour2{
-    margin: 100px 30px 100px 30px;
+    margin: 100px 35px 100px 35px;
     padding: 20px;
     background-color: rgba(0, 94, 124, 0.9);
     border-radius: 25%;
@@ -590,7 +496,7 @@ nav{
     font-weight: 600;
 }
 .tour3{
-    margin: 100px 30px 250px 30px;
+    margin: 100px 35px 250px 35px;
     padding: 20px;
     background-color: rgba(0, 94, 124, 0.9);
     border-radius: 25%;
