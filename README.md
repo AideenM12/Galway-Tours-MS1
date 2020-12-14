@@ -60,7 +60,7 @@ Prospective users :
 
 ### Design
 
-**Typograpghy**
+**Typography**
 I chose the 'Special Elite' font because it reminded of the fonts used on old-style beer labels which helps 
 with the aesthetic I wanted to create. I contrasted this with the 'Zilla Slab' font in order to complement the 
 'Special Elite' font and also to maintain some style neutrality in order to prevent a style overload on the website.
@@ -72,7 +72,7 @@ I chose my color palette using the https://coolors.co website which my mentor ha
 I felt the palette best represented what the website offered, a friendly exploration of Galway's pub scene and night life.
 
 
-<img src="MS1Palette.png" width="400" height="300" alt="">
+<img src="../assets/documentation/milestone1palette.png" width="400" height="300" alt="milestone palette">
 
 **Display**
 I chose this particular dropdown style of navigation having originally wanted to use a 'hamburger' style navigation bar but without Javascript this proved 
@@ -104,7 +104,7 @@ a little beyond the current scope of achievement.
 ### Media
 * The banner image was originally obtained from [Jared Burris on unsplash.com](https://unsplash.com/photos/Kzq3JphxXiA) 
 * The whiskey.jpg image was originally obtained from [Andrew Seaman on upsplash.com](https://unsplash.com/photos/3Vb7WtHGRes)
-* The barflair.pg image was originally obtained from [Bon Vivant on unsplash.com](https://unsplash.com/photos/FcS257Cw9es)
+* The barflair.jpg image was originally obtained from [Bon Vivant on unsplash.com](https://unsplash.com/photos/FcS257Cw9es)
 * The people.jpg image was originally obtained from [Elevate on upsplash.com](https://unsplash.com/photos/KJzrLIfq2Zo)
 * The bar.jpg image was originally obtained from [Alexander Jawfox on upsplash.com](https://unsplash.com/photos/ts2e1Dia5Ec)
 * The galway.jpg image was originally obtained from [Markus Voetter on upsplash.com](https://unsplash.com/photos/s12s4dZSwLk)
