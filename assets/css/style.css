@@ -171,9 +171,12 @@ footer {
    width: 100%;
    background-color: #005e7c;
    color: #001242;
-   border-top: #001242 solid 5px;
+   border: #001242 solid 5px;
    border-bottom: #001242 solid 5px;
    height: auto;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding-right: 10px;
 }
 .testleft{
    width: 49%;
@@ -187,6 +190,12 @@ footer {
 .blockquote{
     font-size: 15px;
     
+}
+.test-image{
+    float: left;
+}
+.test-text{
+    float:right
 }
 .testimonials img{
     margin-top: 10px;
