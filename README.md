@@ -118,7 +118,13 @@ I felt the palette best represented what the website offered, a friendly explora
 
 
 ## Testing
+<img src="assets/documentation/w3c-validator.png" width="900" height="550" alt="w3c-validator.png">
+All HTML passed through the prescribed validator with no issues. Some warnings were given to add identifying headings to sections but this was addressed using the commented headings to divide the pages into easily readable sections.
 
+<img src="assets/documentation/jigsaw-validator.png" width="900" height="550" alt="jigsaw-validator.png">
+
+All CSS passed through the prescribed validator with no issues. Some warnings were given with regard to browser extensions.
+<img src="assets/documentation/extension-warning.png" width="400" height="450" alt="extension-warning.png">
 
 ### Known Bugs and Issues
 * The background image of the tours page amd meet-ups page failed to display on some mobile devices after deployment.
