@@ -90,6 +90,8 @@ I felt the palette best represented what the website offered, a friendly explora
 
 ### Wireframes
 
+The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
+
 [Desktop Wireframes](assets/documentation/milestone-1-desktop-wireframes.pdf)
 
 [Small Screen Wireframes](assets/documentation/milestone-1-smallscreen.pdf)
@@ -118,13 +120,73 @@ I felt the palette best represented what the website offered, a friendly explora
 
 
 ## Testing
+
+### Testing User Stories
+
+* As a first time user I want to find out information about guided tours of Galway city.
+    * Testing was performed to ensure that both the home page and tour page provided appropriate information regarding guided tours offered by the site.
+
+* As a first time user I want to be able to communicate with the service user easily and efficiently.
+    * Testing was performed to ensure that all links to the contact page were functioning correctly and also that these links were easily found. Testing was performed to ensure that the contact form worked and was also tested to ensure that each field had a required function. 
+
+* As a new user I want to discover what social meet-ups the website offers to people who have just moved to the city.
+    * All links to meet-ups page were tested. Introductory information about meetups is provided on homepage. In depth information is provided clearly on the meet-ups page with more than one type of social activity listed and important time and location information also provided. 
+
+* As a returning user I want to be able to connect with Galway Beer and Whiskey Tours on social media so I can 
+  catch any new updates on my social media.
+    * All social media icons have been tested to ensure they function and also ensure that they open in a new tab. 
+
+* As a returning user I want to be able to check for updates about weekly social meet-ups.
+    * All activities on the meetups page have a time and location. 
+
+* As a potential client I want to find a comprehensive description of the tours offered and clear price rates 
+  should I choose to take part in a tour.
+  * Testing was done to ensure that a clear and comprehensive description of three tours was provided with clear price rates displayed for each individual tour. 
+
+* As a potential client I want to find a fun and unique activity to do during my holiday to Galway. 
+   *  Testing was done to ensure that all information was laid out in a clear manner. The purpose of the site is in the title so that potential clients know what is being offered and can decide if the product being offered is in line with their holiday plans.   
+
+
+
 <img src="assets/documentation/w3c-validator.png" width="900" height="550" alt="w3c-validator.png">
-All HTML passed through the prescribed validator with no issues. Some warnings were given to add identifying headings to sections but this was addressed using the commented headings to divide the pages into easily readable sections.
+All HTML passed through the prescribed [W3C validator](https://validator.w3.org/) with no issues. Some warnings were given to add identifying headings to sections but this was addressed using the commented headings to divide the pages into easily readable sections.
 
 <img src="assets/documentation/jigsaw-validator.png" width="900" height="550" alt="jigsaw-validator.png">
 
-All CSS passed through the prescribed validator with no issues. Some warnings were given with regard to browser extensions.
+All CSS passed through the prescribed [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) with no issues. Some warnings were given with regard to browser extensions.
 <img src="assets/documentation/extension-warning.png" width="400" height="450" alt="extension-warning.png">
+
+Testing was performed in the following browsers on both laptop and mobile devices:
+
+    - Google Chrome
+
+    - Mozilla Firefox
+
+    - Opera 
+
+    - Microsoft Edge
+
+    - Internet Explorer
+
+ No issues were detected in any of these browsers at the time of submission. Previous bugs explained in the next section have been resolved. 
+
+**Further Testing**
+
+<img src="assets/documentation/finallighthouse.png" width="800" height="400" alt="final-lighthouse-results">
+This image is an example result of lighthouse testing performed on the index page for mobile with every other test achieving similar results. The lighthouse tool found in Google Dev Tools was used repeatedly throughout the building of the project and was essential in discovering resolving the issues described below. A lighthouse test was performed on both mobile and desktop for each individual page on the site with links to the full reports of each of these tests found below. The lighthouse tool tested each of the following criteria: performance, accessibility, best practices and SEO of each individual page in both mobile and desktop. Each test resulted in a score of 85 or above for each of the aforementioned criteria. 
+
+ [Lighthouse Desktop Index page results](assets/documentation/lighthousedesktopindex.pdf) |
+ [Lighthouse Mobile Index page results](assets/documentation/lighthousemobileindex.pdf)
+
+ [Lighthouse Desktop Tours page results](assets/documentation/lighthousedesktoptours.pdf) |
+ [Lighthouse Mobile Tours page results](assets/documentation/lighthousemobiletours.pdf)
+
+ [Lighthouse Desktop Meetups page results](assets/documentation/lighthousedesktopmeetups.pdf) |
+ [Lighthouse Mobile Meetups page results](assets/documentation/lighthousemobilemeetups.pdf)
+
+ [Lighthouse Desktop Contact page results](assets/documentation/lighthousedesktopcontact.pdf) | 
+ [Lighthouse Mobile Contact page results](assets/documentation/lighthousemobilecontact.pdf) 
+
 
 ### Known Bugs and Issues
 * The background image of the tours page amd meet-ups page failed to display on some mobile devices after deployment.
@@ -165,4 +227,6 @@ This project was deployed from the [Github Respository](https://github.com/Aidee
 * The bar.jpg image was originally obtained from [Alexander Jawfox on upsplash.com](https://unsplash.com/photos/ts2e1Dia5Ec)
 * The galway.jpg image was originally obtained from [Markus Voetter on upsplash.com](https://unsplash.com/photos/s12s4dZSwLk)
 * The language.jpg image was originally obtained from [Elevate on upsplash.com](https://unsplash.com/photos/UoPNA8I-_p0)
-* The following images were supplied by me for the testimonials section of the homepage: aoifeandnoddy.jpg, brian.jpg, becky.jpg, rob.jpg.
+* The following images were supplied by me for the testimonials section of the homepage: aoifeandnoddy.jpg, brian.jpg, becky.jpg,    rob.jpg.
+
+### Acknowledgements
