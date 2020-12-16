@@ -1,539 +1,542 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-
 body {
-  background-color: #c1d3fe;
-  color: #0094c6;
-  overflow-x: hidden;
-  margin: 0;
+	background-color: #c1d3fe;
+	color: #0094c6;
+	overflow-x: hidden;
+	margin: 0;
 }
+
+/*-------------------------Colors-------------------*/
+.head-foot-color {
+	background-color: #000022;
+	color: #0094c6;
+}
+
+.body-color {
+	background-color: #005e7c;
+	color: #001242;
+}
+
 /*----------------------------------------------Header*/
+
 
 /* Logo code was inspired by the love running page provided by the Code Institute */
 .logo {
-  height: 600px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-  float: right;
+	height: 600px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	float: right;
 }
 .logo-outer {
-  height: 600px;
-  width: 100%;
-  position: relative;
-  clear: both;
+	height: 600px;
+	width: 100%;
+	position: relative;
+	clear: both;
 }
 .banner h1 {
-  text-align: justify;
-  padding-top: 5px;
+	text-align: justify;
+	padding-top: 5px;
 }
 .banner {
-  width: 100%;
-  background-color: #000022;
-  color: #0094c6;
-  position: fixed;
-  padding-top: 5px;
-  z-index: 1;
-  border-bottom: 2px #005e7c solid;
+	width: 100%;
+	position: fixed;
+	padding-top: 5px;
+	z-index: 1;
+	border-bottom: 2px #005e7c solid;
 }
- h1, h2, h3,h5 {
-  font-family: "Special Elite", sans-serif;
+h1,
+h2,
+h3,
+h5 {
+	font-family: "Special Elite", sans-serif;
 }
 p {
-  font-family: "Zilla Slab", sans-serif;
+	font-family: "Zilla Slab", sans-serif;
 }
 .page-break {
-  height: 60px;
-  width: 100%;
-  background-color: #005e7c;
-  color: #001242;
-  text-align: center;
-  border: solid 2px #040f16;
-  padding-top: 15px;
-  font-family: "Special Elite", sans-serif;
-  font-size: 20px;
+	height: 60px;
+	width: 100%;
+	background-color: #005e7c;
+	text-align: center;
+	border: solid 2px #040f16;
+	padding-top: 15px;
+	font-family: "Special Elite", sans-serif;
+	font-size: 25px;
 }
 .page-break a {
-  color: #001242;
+	color: #c1d3fe;
 }
 .page-break a:hover {
-  color: #040f16;
-  font-weight: bold;
-  text-decoration: none;
+	color: #040f16;
+	font-weight: 600;
+	text-decoration: none;
 }
+
 /* This code was taken from the Rosie project by Matt Rudge CI */
+
 .hvr-sweep-to-right:before {
-    background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
 }
+
 /*---------------Navigation-------*/
 nav {
-  text-align: right;
-  font-family: "Special Elite", sans-serif;
-  color: #0094c6;
-  background-color: #000022;
-  float: right;
-  font-size: 20px;
+	text-align: right;
+	font-family: "Special Elite", sans-serif;
+	float: right;
+	font-size: 20px;
 }
-.fa-bars{
-    font-weight: 900;
-    color: #0094c6;
-    font-size: 30px;
+.fa-bars {
+	font-weight: 900;
+	color: #0094c6;
+	font-size: 30px;
 }
-.nav-link{
-    color: #0094c6;
+.nav-link {
+	color: #0094c6;
 }
-.nav-link:hover{
-    color:#005e7c;    
+.nav-link:hover {
+	color: #005e7c;
 }
 button .navbar-toggler:focus {
-    outline: none;
+	outline: none;
 }
 
 /*------------------------Footer----------*/
 footer {
-  font-family: "Special Elite", sans-serif;
-  width: 100%;
-  height: auto;
-  position: relative;
+	font-family: "Special Elite", sans-serif;
+	width: 100%;
+	height: auto;
+	position: relative;
 }
 .row-margin {
-  background-color: #000022;
-  border-top: 2px #005e7c solid;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 0;
-  padding-right: 10px;
-  margin: 0;
-  width: 100%;
-  height: auto;
+	border-top: 2px #005e7c solid;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 0;
+	padding-right: 10px;
+	margin: 0;
+	width: 100%;
+	height: auto;
 }
 .foot-text {
-  font-family: "Special Elite", sans-serif;
-  font-size: 20px;
-  padding-left: 25px;
+	font-family: "Special Elite", sans-serif;
+	font-size: 20px;
+	padding-left: 25px;
 }
 .icons {
-  float: right;
+	float: right;
 }
 .icons li a i {
-  padding-top: 10px;
-  line-height: 10px;
-  height: 30px;
-  width: 30px;
-  font-size: 20px;
-  background-color: #0094c6;
-  padding: 15px 0px 15px 0px;
-  color: #001242;
-  border-radius: 50%;
-  margin: 10px;
-  text-align: center;
-  padding-top: 10px;
+	padding-top: 10px;
+	line-height: 10px;
+	height: 30px;
+	width: 30px;
+	font-size: 20px;
+	background-color: #0094c6;
+	padding: 15px 0px 15px 0px;
+	color: #001242;
+	border-radius: 50%;
+	margin: 10px;
+	text-align: center;
+	padding-top: 10px;
 }
 .icons li a i:hover {
-  color: #0094c6;
-  background-color: #001242;
+	color: #0094c6;
+	background-color: #001242;
 }
+
 /*-------------------------------Home page body-------*/
-.about{
-    display: flex;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    margin: 20px;
+.about {
+	display: flex;
+	align-items: center;
+	height: auto;
+	width: 100%;
+	margin: 20px;
 }
 .description-left {
-  width: 100%;
-  float:left;
-  text-align: center;
+	width: 100%;
+	float: left;
+	text-align: center;
 }
-.barflair img{
-    max-height: 240px;
-    max-width: 290px;
-    padding-bottom: 10px;
+.barflair img {
+	max-height: 240px;
+	max-width: 290px;
+	padding-bottom: 10px;
 }
-.people img{
-    max-height: 300px;
+.people img {
+	max-height: 300px;
 }
+
 /*-------------------------------Testimonials-------------*/
-.testimonials{
-   width: 100%;
-   background-color: #005e7c;
-   color: #001242;
-   border: #001242 solid 5px;
-   border-bottom: #001242 solid 5px;
-   height: auto;
+.testimonials {
+	width: 100%;
+	border: #001242 solid 5px;
+	height: auto;
 }
-.blockquote{
-    font-size: 15px;
+.blockquote {
+	font-size: 15px;
 }
-.testimonials img{
-    margin-top: 10px;
-    border: 7px solid #001242;
-    width: 100px;
-    height: 120px;
+.testimonials img {
+	margin-top: 10px;
+	border: 7px solid #001242;
+	width: 100px;
+	height: 120px;
 }
+
 /*------------------------------------------Tour Page---------*/
-.tour1{
-    margin-top: 60px; 
-    margin-bottom: 20px;
-    background-color: #005e7c;
-    color: #001242;
-    text-align: center;
-    padding-left: 30px; 
-    border: 2px solid #040f16; 
+.tour-border {
+	border: 2px solid #040f16;
 }
-.tour2{
-    margin-top: 60px;
-    margin-bottom: 20px;
-    background-color: #005e7c;
-    color: #001242;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 2px solid #040f16;
+.tour1 {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-left: 30px;
 }
-.tour3{
-    margin-top: 60px;
-    margin-bottom: 20px;
-    background-color: #005e7c;
-    color: #001242;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 20px;
-    border: 2px solid #040f16;
+.tour2 {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
 }
-.tour1 img, .tour2 img, .tour3 img{
-    margin: 15px;
-    width: 250px;
-    height: 200px;
-    border-radius: 50%;
-    border: solid #040f16 15px;
+.tour3 {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 20px;
 }
-.tour-list{
-    font-family:'Zilla Slab', sans-serif;
-    font-size: 20px;
-    list-style-type: upper-roman;
-    padding: 0;
-    list-style-position: inside;
+.tour1 img,
+.tour2 img,
+.tour3 img {
+	margin: 15px;
+	width: 250px;
+	height: 200px;
+	border-radius: 50%;
+	border: solid #040f16 15px;
 }
-.tour-list-item{
-    text-align: center;
+.tour-list {
+	font-family: 'Zilla Slab', sans-serif;
+	font-size: 20px;
+	list-style-type: upper-roman;
+	padding: 0;
+	list-style-position: inside;
 }
-.tour-heading{
-    font-weight:600;
-    font-size: 35px;
+.tour-list-item {
+	text-align: center;
 }
-.tour3 h5{
-    font-weight: 600;
-    font-size: 25px;
+.tour-heading {
+	font-weight: 600;
+	font-size: 35px;
 }
-.tour1 p{
-    margin-top: 100px;
+.tour3 h5 {
+	font-weight: 600;
+	font-size: 25px;
 }
-.tour2 p{
-    margin-top: 50px;
+.tour1 p {
+	margin-top: 100px;
 }
-.price{
-    font-family: 'Special Elite', san-serif;
-    font-size: 20px;
-    font-weight: 600;
+.tour2 p {
+	margin-top: 50px;
 }
-.tour1 i{
-    padding-top: 30px;
+.price {
+	font-family: 'Special Elite', san-serif;
+	font-size: 20px;
+	font-weight: 600;
 }
-.tour1 i,.tour2 i, .tour3 i{
-    height: 30px;
-    width: 30px;
-    font-size: 30px;
+.tour1 i {
+	padding-top: 30px;
 }
-.meetups-mobile p{
-    margin-top: 20px;
+.tour1 i,
+.tour2 i,
+.tour3 i {
+	height: 30px;
+	width: 30px;
+	font-size: 30px;
 }
+.meetups-mobile p {
+	margin-top: 20px;
+}
+
 /*-------------------------------Contact page------------*/
-.galway{
-    width: 100%;
-    height: 600px;
+.galway {
+	width: 100%;
+	height: 600px;
 }
-.galway img{
-    width: 100%;
-    height:600px;
+.galway img {
+	width: 100%;
+	height: 600px;
 }
-.contact{
-    background-color: rgba(0, 0, 34, 0.95);;
-    color: #0094c6;
-    font-family: 'Special Elite', sans-serif;
-    padding: 20px;
-    width: 75%;
-    height: 500px;
-    position: relative;
-    border-radius: 10%;
-    clear: both;
-    float: none;
+.contact {
+	background-color: rgba(0, 0, 34, 0.95);
+	font-family: 'Special Elite', sans-serif;
+	padding: 20px;
+	width: 75%;
+	height: 500px;
+	position: relative;
+	border-radius: 10%;
+	clear: both;
+	float: none;
 }
-.contactbg{
-    background: url("../../assets/images/galway.jpg") no-repeat center center fixed; 
+.contactbg {
+	background: url("../../assets/images/galway.jpg") no-repeat center center fixed;
 }
-.btn{
-    background-color: #0094c6;
-    color: #001242;
-    display: block;
-    margin-top: 40px;
-    float:none;
-    clear:both;
-    margin-left:auto;
-    margin-right: auto;
+.btn {
+	background-color: #0094c6;
+	color: #001242;
+	display: block;
+	margin-top: 40px;
+	float: none;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
 }
 .btn a:hover {
-  color: #040f16;
-  font-weight: bold;
-  text-decoration: none;
-  display:block;
+	color: #040f16;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
 }
 
 @media only screen and (min-width: 577px) and (max-width:992px) {
-h1 {
-    font-size: 35px;
-  }
-.tour1, .tour2, .tour3{
-    width: 33%;
-}
-.description-left {
-  float:right;
-  width: 100%;
-}
-.about {
-    height: auto;
-    width: 100%;
-}
-.testimonials h1{
-    text-align:center;
-}
-.tour1 img, .tour2 img, .tour3 img{
-    width: 200px;
-}
-button.navbar-toggler {
-    float: right;
-    padding: 10px;
-    margin: 20px;
-}
-.navbar-toggler:focus {
-   outline: 5px auto #000022;
-}
-}
-
-@media only screen and (max-width: 576px){
-/*----------------------------------------------Backgrounds------*/
-
-/*this solution was found on stack overflow*/
-html, body{
-    overflow-x: hidden;
-    overflow-y: scroll !important;
-}
-body {
-    background: url("../../assets/images/mobilehero.jpg") no-repeat center center fixed;
-    width: 100vw;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+	h1 {
+		font-size: 35px;
+	}
+	.tour1,
+	.tour2,
+	.tour3 {
+		width: 33%;
+	}
+	.description-left {
+		float: right;
+		width: 100%;
+	}
+	.about {
+		height: auto;
+		width: 100%;
+	}
+	.testimonials h1 {
+		text-align: center;
+	}
+	.tour1 img,
+	.tour2 img,
+	.tour3 img {
+		width: 200px;
+	}
+	button.navbar-toggler {
+		float: right;
+		padding: 10px;
+		margin: 20px;
+	}
+	.navbar-toggler:focus {
+		outline: 5px auto #000022;
+	}
 }
 
-  /* Multiple backgrounds solution was found on Stack Overflow*/
-body.tours{
-    background: url("../../assets/images/whiskey.jpg") no-repeat center center fixed;
-    width: 100vw;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-body.meetups{
-    background: url("../../assets/images/barflair.jpg") no-repeat center center fixed;
-    width: 100vw;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat:no-repeat;
-}
-body.contactpage{
-    background: url("../../assets/images/galway.jpg") no-repeat center center fixed;
-    width: 100vw;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat:no-repeat;
-}
-
-/*------------------------------------Headers----------------*/
-.banner {
-    display: inline-block;
-    clear: both;
-    font-weight: 600;
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    padding-right: 7px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-    z-index: 1;
-    border-bottom: 5px #005e7c solid;
-}
-.banner h1{
-    font-size: 25px;
-    font-weight: 600;
-    word-spacing: 5px;
-    text-align: left;
-    line-height: 1;
-}
-
-/*----------------------------------------Navigation-----------------*/
-nav{
-    float:right;
-}
-.navbar-toggler{
-    padding: 0;
-}
-
-/*--------------------------Home Page Body------------*/
-.about{
-    height:auto;
-    width: 100%;
-    display: block;
-}
-.description-left, .description-right{
-    width: 100%;
-    padding: 15px;
-}
-.description-left h3{
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-}
-.mobile-description {
-   width: 100%;
-   margin-top: 150px;
-   height: auto;
-   float: none;
-   border-radius: 25%;
-   clear: both;
-   background-color: rgba(0, 94, 124, 0.9);
-   color: #001242;
-   font-weight: 600;
-   border: solid 2px #001242;
-   padding: 20px 15px;
-   display: block;
-}
-
-/*--------------------------------------Footer------------*/
-  .row-margin {
-    overflow: hidden;
-    height: 120px;
-    font-size: 15px;
-    font-weight: 400;
-    border-top: 5px #005e7c solid;
-}
-.foot-text {
-    font-size: 20px;
-    display: inline-block;
-    padding-left: 10px;
-    font-weight: 800;
-}
-.icons {
-    float: none;
-    word-spacing: 30px;
-    margin-bottom: 10px;
-}
-.icons li a i {
-    height: 40px;
-    width: 40px;
-    font-size: 30px;
-    background-color: #0094c6;
-    padding: 15px 0px 15px 0px;
-    color: #001242;
-    border-radius: 50%;
-    line-height: 15px;
-    margin: 5px;
-}
-.foot-1 {
-   height: 20px;
-   text-align: center;
-   position: relative;
-}
-
-.foot-2 {
-   text-align: center;
-   height: 30px;
-   position: relative;
-   padding-bottom: 5px;
-  }
-
-/*------------------------------------------Tours-----------*/
-.tour1{
-   margin: 300px 35px 100px 35px;
-   padding: 20px;
-   background-color: rgba(0, 94, 124, 0.9);
-   border-radius: 25%;
-  font-weight: 600;
-}
-.tour2{
-    margin: 100px 35px 100px 35px;
-    padding: 20px;
-    background-color: rgba(0, 94, 124, 0.9);
-    border-radius: 25%;
-    font-weight: 600;
-}
-.tour-heading{
-    font-weight: 600;
-}
-.tour3{
-    margin: 100px 35px 250px 35px;
-    padding: 20px;
-    background-color: rgba(0, 94, 124, 0.9);
-    border-radius: 25%;
-    font-weight: 600;
-}
-.tour1 p {
-    margin-top: 10px;
-}
-.tour2 p {
-    margin-top: 10px;
-}
-.tour1 img, .tour2 img, .tour3 img{
-    margin: 10px;
-    border: solid #040f16 10px;
-}
-
-/*-------------------------------------Meet-Ups-------*/
-.meetups-mobile{
-    background-color: rgba(0, 18, 66, 0.9);
-    color: #0094c6;
-    border: 2px solid #0094c6;
-}
-.meetups-mobile img{
-    margin: 5px;
-    border: solid #0094c6 10px;
-}
-
-/*--------------------------------------Contact Page------------*/
-.contact{
-    margin-top: 240px;
-    margin-bottom: 75px;
-    background-color: rgba(0, 0, 34, 0.9);
-    color: #0094c6;
-    font-size: 20px;
-    width: 80vw;
-}
-.contactbg{
-    background: none;
-}
-
+@media only screen and (max-width: 576px) {
+	/*----------------------------------------------Backgrounds------*/
+	/*this solution was found on stack overflow*/
+	html,
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll !important;
+	}
+	body {
+		background: url("../../assets/images/mobilehero.jpg") no-repeat center center fixed;
+		width: 100vw;
+		height: 100vh;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+	/* Multiple backgrounds solution was found on Stack Overflow*/
+	body.tours {
+		background: url("../../assets/images/whiskey.jpg") no-repeat center center fixed;
+		width: 100vw;
+		height: 100vh;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	body.meetups {
+		background: url("../../assets/images/barflair.jpg") no-repeat center center fixed;
+		width: 100vw;
+		height: 100vh;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	body.contactpage {
+		background: url("../../assets/images/galway.jpg") no-repeat center center fixed;
+		width: 100vw;
+		height: 100vh;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	/*------------------------------------Headers----------------*/
+	.banner {
+		display: inline-block;
+		clear: both;
+		font-weight: 600;
+		width: 100%;
+		position: fixed;
+		text-align: center;
+		padding-right: 7px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 5px;
+		z-index: 1;
+		border-bottom: 5px #005e7c solid;
+	}
+	.banner h1 {
+		font-size: 25px;
+		font-weight: 600;
+		word-spacing: 5px;
+		text-align: left;
+		line-height: 1;
+	}
+	/*----------------------------------------Navigation-----------------*/
+	nav {
+		float: right;
+	}
+	.navbar-toggler {
+		padding: 0;
+	}
+	/*--------------------------Home Page Body------------*/
+	.about {
+		height: auto;
+		width: 100%;
+		display: block;
+	}
+	.description-left,
+	.description-right {
+		width: 100%;
+		padding: 15px;
+	}
+	.description-left h3 {
+		font-size: 30px;
+		font-weight: 700;
+		text-align: center;
+	}
+	.mobile-description {
+		width: 100%;
+		margin-top: 150px;
+		height: auto;
+		float: none;
+		border-radius: 25%;
+		clear: both;
+		background-color: rgba(0, 94, 124, 0.9);
+		color: #001242;
+		font-weight: 600;
+		border: solid 2px #001242;
+		padding: 20px 15px;
+		display: block;
+	}
+	/*--------------------------------------Footer------------*/
+	.row-margin {
+		overflow: hidden;
+		height: 120px;
+		font-size: 15px;
+		font-weight: 400;
+		border-top: 5px #005e7c solid;
+	}
+	.foot-text {
+		font-size: 20px;
+		display: inline-block;
+		padding-left: 10px;
+		font-weight: 800;
+	}
+	.icons {
+		float: none;
+		word-spacing: 30px;
+		margin-bottom: 10px;
+	}
+	.icons li a i {
+		height: 40px;
+		width: 40px;
+		font-size: 30px;
+		padding: 15px 0px 15px 0px;
+		border-radius: 50%;
+		line-height: 15px;
+		margin: 5px;
+	}
+	.foot-1 {
+		height: 20px;
+		text-align: center;
+		position: relative;
+	}
+	.foot-2 {
+		text-align: center;
+		height: 30px;
+		position: relative;
+		padding-bottom: 5px;
+	}
+	/*------------------------------------------Tours-----------*/
+	.tour1 {
+		margin: 300px 35px 100px 35px;
+		padding: 20px;
+		background-color: rgba(0, 94, 124, 0.9);
+		border-radius: 25%;
+		font-weight: 600;
+	}
+	.tour2 {
+		margin: 100px 35px 100px 35px;
+		padding: 20px;
+		background-color: rgba(0, 94, 124, 0.9);
+		border-radius: 25%;
+		font-weight: 600;
+	}
+	.tour-heading {
+		font-weight: 600;
+	}
+	.tour3 {
+		margin: 100px 35px 250px 35px;
+		padding: 20px;
+		background-color: rgba(0, 94, 124, 0.9);
+		border-radius: 25%;
+		font-weight: 600;
+	}
+	.tour1 p {
+		margin-top: 10px;
+	}
+	.tour2 p {
+		margin-top: 10px;
+	}
+	.tour1 img,
+	.tour2 img,
+	.tour3 img {
+		margin: 10px;
+		border: solid #040f16 10px;
+	}
+	/*-------------------------------------Meet-Ups-------*/
+	.meetups-mobile {
+		background-color: rgba(0, 18, 66, 0.9);
+		color: #0094c6;
+		border: 2px solid #0094c6;
+	}
+	.meetups-mobile img {
+		margin: 5px;
+		border: solid #0094c6 10px;
+	}
+	/*--------------------------------------Contact Page------------*/
+	.contact {
+		margin-top: 240px;
+		margin-bottom: 75px;
+		font-size: 20px;
+		width: 80vw;
+	}
+	.contactbg {
+		background: none;
+	}
 }

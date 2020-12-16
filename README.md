@@ -12,7 +12,7 @@
 
 View the live website [here](https://aideenm12.github.io/Galway-Tours-MS1/)
 
-![Website MockUp](assets/documentation/mock-up.png)
+![Website MockUp](documentation/mock-up.png)
 
 # UX
 
@@ -82,7 +82,14 @@ I chose my color palette using the https://coolors.co website which my mentor ha
 I felt the palette best represented what the website offered, a friendly exploration of Galway's pub scene and night life.
 
 
-<img src="assets/documentation/milestone1palette.png" width="350" height="300" alt="milestone palette">
+<img src="documentation/milestone1-palette (640x480).jpg" width="450" height="250" alt="milestone palette">
+
+* Oxford Blue - Hex: #000022 | RGB (0, 0, 34)
+* Oxford Blue - Hex: #001242 | RGB (0, 18, 66)
+* Lavender Blue - Hex: #C1D3FE | RGB (193, 211, 254)
+* Blue NCS - Hex: #0094C6 | RGB (0, 148, 198)
+* Blue Sapphire - Hex: #005E7C | RGB (0, 94, 124)
+* Rich Black FOGRA 29 - Hex: #040F16 | RGB (4, 15, 22)
 
 **Display**
 . 
@@ -92,9 +99,9 @@ I felt the palette best represented what the website offered, a friendly explora
 
 The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
 
-[Desktop Wireframes](assets/documentation/milestone-1-desktop-wireframes.pdf)
+[Desktop Wireframes](documentation/milestone-1-desktop-wireframes.pdf)
 
-[Small Screen Wireframes](assets/documentation/milestone-1-smallscreen.pdf)
+[Small Screen Wireframes](documentation/milestone-1-smallscreen.pdf)
 
 
 
@@ -148,16 +155,17 @@ The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
 
 
 
-<img src="assets/documentation/w3c-validator.png" width="900" height="550" alt="w3c-validator.png">
+<img src="documentation/w3c-validator (640x254).jpg" width="650" height="400" alt="w3c-validator.png">
+
 All HTML passed through the prescribed [W3C validator](https://validator.w3.org/) with no issues. Some warnings were given to add identifying headings to sections but this was addressed using the commented headings to divide the pages into easily readable sections.
 
-<img src="assets/documentation/jigsaw-validator.png" width="900" height="550" alt="jigsaw-validator.png">
+<img src="documentation/jigsaw-validator (640x233).jpg" width="750" height="450" alt="jigsaw-validator.png">
 
 All CSS passed through the prescribed [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) with no issues. Some warnings were given with regard to browser extensions.
-<img src="assets/documentation/extension-warning.png" width="400" height="450" alt="extension-warning.png">
+
+<img src="documentation/extension-warning (640x512).jpg" width="500" height="400" alt="extension-warning.png">
 
 Testing was performed in the following browsers on both laptop and mobile devices:
-
     - Google Chrome
 
     - Mozilla Firefox
@@ -172,36 +180,47 @@ Testing was performed in the following browsers on both laptop and mobile device
 
 **Further Testing**
 
-<img src="assets/documentation/finallighthouse.png" width="800" height="400" alt="final-lighthouse-results">
+<img src="documentation/finallighthouse (640x236).jpg" width="650" height="400" alt="final-lighthouse-results">
+
 This image is an example result of lighthouse testing performed on the index page for mobile with every other test achieving similar results. The lighthouse tool found in Google Dev Tools was used repeatedly throughout the building of the project and was essential in discovering resolving the issues described below. A lighthouse test was performed on both mobile and desktop for each individual page on the site with links to the full reports of each of these tests found below. The lighthouse tool tested each of the following criteria: performance, accessibility, best practices and SEO of each individual page in both mobile and desktop. Each test resulted in a score of 85 or above for each of the aforementioned criteria. 
 
- [Lighthouse Desktop Index page results](assets/documentation/lighthousedesktopindex.pdf) |
- [Lighthouse Mobile Index page results](assets/documentation/lighthousemobileindex.pdf)
+ [Lighthouse Desktop Index page results](documentation/lighthousedesktopindex.pdf) |
+ [Lighthouse Mobile Index page results](documentation/lighthousemobileindex.pdf)
 
- [Lighthouse Desktop Tours page results](assets/documentation/lighthousedesktoptours.pdf) |
- [Lighthouse Mobile Tours page results](assets/documentation/lighthousemobiletours.pdf)
+ [Lighthouse Desktop Tours page results](documentation/lighthousedesktoptours.pdf) |
+ [Lighthouse Mobile Tours page results](documentation/lighthousemobiletours.pdf)
 
- [Lighthouse Desktop Meetups page results](assets/documentation/lighthousedesktopmeetups.pdf) |
- [Lighthouse Mobile Meetups page results](assets/documentation/lighthousemobilemeetups.pdf)
+ [Lighthouse Desktop Meetups page results](documentation/lighthousedesktopmeetups.pdf) |
+ [Lighthouse Mobile Meetups page results](documentation/lighthousemobilemeetups.pdf)
 
- [Lighthouse Desktop Contact page results](assets/documentation/lighthousedesktopcontact.pdf) | 
- [Lighthouse Mobile Contact page results](assets/documentation/lighthousemobilecontact.pdf) 
+ [Lighthouse Desktop Contact page results](documentation/lighthousedesktopcontact.pdf) | 
+ [Lighthouse Mobile Contact page results](documentation/lighthousemobilecontact.pdf) 
 
 
 ### Known Bugs and Issues
 * The background image of the tours page amd meet-ups page failed to display on some mobile devices after deployment.
 
-<img src="assets/documentation/tour-page-bug.jpg" width="200" height="300" alt="tours-bug-image" >
-<img src="assets/documentation/meetups-page-bug.jpg" width="200" height="300" alt="meetups-bug-image" >
+<img src="documentation/tour-page-bug.jpg" width="200" height="300" alt="tours-bug-image" >
+<img src="documentation/meetups-page-bug.jpg" width="200" height="300" alt="meetups-bug-image" >
 
 The images had been compressed but after placing the project into #peer-code-review to allow it to be tested on other devices
 a classmate passed it through lighthouse on google dev tools with the following results: 
 
-<img src="assets/documentation/lighthouse-bug.png" width="500" height="300" alt="lighthouse-bug-image" >
+<img src="documentation/lighthouse-bug (640x399).jpg" width="500" height="300" alt="lighthouse-bug-image" >
 
 The images were compressed further and reuploaded which successfully resolved the issue and the subsequent lighthouse tests were much more satisfactory.
 
-<img src="assets/documentation/lighthouse.png" width="550" height="250" alt="lighthouse-image" >
+<img src="documentation/lighthouse (640x218).jpg" width="550" height="250" alt="lighthouse-image" >
+
+
+* Another minor issue was the output of the project on google dev tools. In google dev tools the mobile view of the contact form doesn't appear centered as depicted below:
+
+<img src="documentation/devtoolscontactform.png" width="250" height="550" alt="lighthouse-image" >
+
+However on an actual mobile device the form does appear centered, 
+
+<img src="documentation/mobilecontactform.jpg" width="250" height="550" alt="lighthouse-image" >
+
 
 ## Deployment
 This project was developed using [Gitpod IDE](https://gitpod.io) and pushed to Github using the in-built terminal.
@@ -216,6 +235,15 @@ This project was deployed from the [Github Respository](https://github.com/Aidee
 6. Click save.
 7. The project has now been deployed. Scroll back to the GitHub pages section and click on the link above the source heading to view the live site.
 
+### Making a clone to run locally
+
+1. Log into GitHub.
+2. Select the [respository](https://github.com/AideenM12/Galway-Tours-MS1).
+3. Click the Code dropdown button next to the green Gitpod button.
+4. Download ZIP file and unpackage locally and open with IDE. Alternatively copy the URL in the HTTPS box.
+5. Open the alternative editor and terminal window.
+6. Type 'git clone' and paste the copied URL.
+7. Press Enter. A local clone will be created.  
 
 ## Credits
 
