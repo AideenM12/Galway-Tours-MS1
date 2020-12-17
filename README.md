@@ -1,5 +1,3 @@
-# Galway Beer and Whiskey Tours
-
 # Contents
 * [UX](#UX)
     * [Strategy](#Strategy)
@@ -8,10 +6,24 @@
        * [User Stories](#User-Stories) 
     * [Structure](#Structure)
        * [Features](#Features) 
+         * [Home Page](#Home-Page)
+         * [Tour Page](#Tour-Page)
+         * [Meetups Page](#Meetups-Page)
+         * [Contact Page](#Contact-Page)
+        * [Existing Features](#Existing-Features)
+        * [Design](#Design)
+    * [Skeleton](#Skeleton)
+      * [Wireframes](#Wireframes)
+      * [Technolgies Used](#Technologies-Used)
 
-View the live website [here](https://aideenm12.github.io/Galway-Tours-MS1/)
+
+# Galway Beer and Whiskey Tours
 
 ![Website MockUp](documentation/mock-up.png)
+
+The live website can be viewed [here](https://aideenm12.github.io/Galway-Tours-MS1/)
+
+
 
 # UX
 
@@ -151,6 +163,9 @@ The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
 - [Popper.js](https://popper.js.org/) Certain bootstrap responsive elements require Popper.js in order to function correctly.
 - [Balsamiq](https://balsamiq.com/) The wireframes for this project were created using Balsamiq.
 - [Unsplash](https://unsplash.com/) The majority of images used in this project were found in Unsplash. 
+- [Freeformatter- CSS beautifier](https://www.freeformatter.com/css-beautifier.html) This was used to format the CSS stylesheet.
+- [Freeformatter- HTML formatter](https://www.freeformatter.com/html-formatter.html) This was used to format each HTML page
+- [Adobe Photoshop](https://photoshop.adobe.com/) Some images were resized using Adobe Photoshop.
 
 
 
@@ -166,39 +181,56 @@ The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
 * As a first time user I want to find out information about guided tours of Galway city.
     * Testing was performed to ensure that both the home page and tour page provided appropriate information regarding guided tours offered by the site.
 
+    <img src="documentation/about1.png" width="650" height="250" alt="about1.png"><img src="documentation/about2.png" width="650" height="250" alt="about2.png">
+
+    <img src="documentation/about3.png" width="250" height="650" alt="about3.png">
+
 * As a first time user I want to be able to communicate with the service user easily and efficiently.
     * Testing was performed to ensure that all links to the contact page were functioning correctly and also that these links were easily found. Testing was performed to ensure that the contact form worked and was also tested to ensure that each field had a required function. 
+
+    <img src="documentation/contactform.jpg" width="250" height="350" alt="contactform.jng">
+
 
 * As a new user I want to discover what social meet-ups the website offers to people who have just moved to the city.
     * All links to meet-ups page were tested. Introductory information about meetups is provided on homepage. In depth information is provided clearly on the meet-ups page with more than one type of social activity listed and important time and location information also provided. 
 
+    <img src="documentation/meetups1.png" width="250" height="650" alt="meetups1.png">
+    <img src="documentation/meetups2.png" width="350" height="250" alt="meetups2.png">
+
 * As a returning user I want to be able to connect with Galway Beer and Whiskey Tours on social media so I can 
   catch any new updates on my social media.
-    * All social media icons have been tested to ensure they function and also ensure that they open in a new tab. 
+    * All social media icons have been tested to ensure they function and also ensure that they open in a new tab. The user can just click the icons at the bottom right corner of the page and they will be taken to the desired social media site in a new tab.
+    <img src="documentation/footer-icons.png" width="450" height="100" alt="footer-icons.png"> 
+
 
 * As a returning user I want to be able to check for updates about weekly social meet-ups.
     * All activities on the meetups page have a time and location. 
 
+    <img src="documentation/location1.png" width="450" height="200" alt="location1.png"> <img src="documentation/location2.png" width="450" height="200" alt="location2.png"> <img src="documentation/location3.png" width="450" height="200" alt="location3.png"> 
+
 * As a potential client I want to find a comprehensive description of the tours offered and clear price rates 
   should I choose to take part in a tour.
-  * Testing was done to ensure that a clear and comprehensive description of three tours was provided with clear price rates displayed for each individual tour. 
+  * Testing was done to ensure that a clear and comprehensive description of three tours was provided with clear price rates displayed for each individual tour.  
+    1. The user can navigate to the tour page by either clicking tours in the above navigation bar or the navigation links located beneath the hero image. On mobile the user can press the hamburger icon and select 'Tours' from the dropdown menu. 
+    2. Once on the tour page the user simply needs to scroll past the hero image to find a description of all three tours offered. On mobile the user can simply scroll down to read the descriptions of each tour.
+    3. Beneath each description the tour price can be found written in bold.
 
 * As a potential client I want to find a fun and unique activity to do during my holiday to Galway. 
    *  Testing was done to ensure that all information was laid out in a clear manner. The purpose of the site is in the title so that potential clients know what is being offered and can decide if the product being offered is in line with their holiday plans.   
 
+**Further Testing**
+
+* All HTML passed through the prescribed [W3C validator](https://validator.w3.org/) with no issues. Some warnings were given to add identifying headings to sections but this was addressed using the commented headings to divide the pages into easily readable sections.
+
+<img src="documentation/w3c-validator.jpg" width="650" height="400" alt="w3c-validator.jpg">
 
 
-<img src="documentation/w3c-validator (640x254).jpg" width="650" height="400" alt="w3c-validator.png">
 
-All HTML passed through the prescribed [W3C validator](https://validator.w3.org/) with no issues. Some warnings were given to add identifying headings to sections but this was addressed using the commented headings to divide the pages into easily readable sections.
+* All CSS passed through the prescribed [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) with no issues. Some warnings were given with regard to browser extensions.
+<img src="documentation/jigsaw-validator.jpg" width="650" height="350" alt="jigsaw-validator.jpg">
+<img src="documentation/extension-warning.jpg" width="500" height="400" alt="extension-warning.jpg">
 
-<img src="documentation/jigsaw-validator (640x233).jpg" width="750" height="450" alt="jigsaw-validator.png">
-
-All CSS passed through the prescribed [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) with no issues. Some warnings were given with regard to browser extensions.
-
-<img src="documentation/extension-warning (640x512).jpg" width="500" height="400" alt="extension-warning.png">
-
-Testing was performed in the following browsers on both laptop and mobile devices:
+* Testing was performed in the following browsers on both laptop and mobile devices:
     - Google Chrome
 
     - Mozilla Firefox
@@ -209,13 +241,17 @@ Testing was performed in the following browsers on both laptop and mobile device
 
     - Internet Explorer
 
- No issues were detected in any of these browsers at the time of submission. Previous bugs explained in the next section have been resolved. 
+    No issues were detected in any of these browsers at the time of submission. Previous bugs explained in the next section have been resolved. 
 
-**Further Testing**
+* All links were tested and found to be completely functional at the time of submission.
 
-<img src="documentation/finallighthouse (640x236).jpg" width="650" height="400" alt="final-lighthouse-results">
 
-This image is an example result of lighthouse testing performed on the index page for mobile with every other test achieving similar results. The lighthouse tool found in Google Dev Tools was used repeatedly throughout the building of the project and was essential in discovering resolving the issues described below. A lighthouse test was performed on both mobile and desktop for each individual page on the site with links to the full reports of each of these tests found below. The lighthouse tool tested each of the following criteria: performance, accessibility, best practices and SEO of each individual page in both mobile and desktop. Each test resulted in a score of 85 or above for each of the aforementioned criteria. 
+
+
+
+The below image is an example result of lighthouse testing performed on the index page for mobile with every other test achieving similar results. The lighthouse tool found in Google Dev Tools was used repeatedly throughout the building of the project and was essential in discovering resolving the issues described below. A lighthouse test was performed on both mobile and desktop for each individual page on the site with links to the full reports of each of these tests found below. The lighthouse tool tested each of the following criteria: performance, accessibility, best practices and SEO of each individual page in both mobile and desktop. Each test resulted in a score of 85 or above for each of the aforementioned criteria. 
+
+<img src="documentation/finallighthouse (640x236).jpg" width="650" height="300" alt="final-lighthouse-results">
 
  [Lighthouse Desktop Index page results](documentation/lighthousedesktopindex.pdf) |
  [Lighthouse Mobile Index page results](documentation/lighthousemobileindex.pdf)
@@ -295,6 +331,8 @@ This project was deployed from the [Github Respository](https://github.com/Aidee
 * The hover function of the navigation links located beneath the hero image was originally taken from the Mini Project with Bootstrap 4 by Matt Rudge. 
 
 * The testimonials section of the homepage was inspired by the Bootstrapping your next Big idea lesson series by Matt Rudge of the Code Institute.  
+
+* [Stack Overflow](https://stackoverflow.com/) was used as a general resource for general issues and obstacles.  
 
 ### Acknowledgements
 
