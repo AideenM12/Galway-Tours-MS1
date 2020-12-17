@@ -15,6 +15,15 @@
     * [Skeleton](#Skeleton)
       * [Wireframes](#Wireframes)
       * [Technolgies Used](#Technologies-Used)
+    * [Testing](#Testing)
+      * [Testing User Stories](#Testing-User-Stories)
+      * [Known Bugs and Issues](#Known-Bugs-and-Issues)
+    * [Deployment](#Deployment)
+      * [Making a clone to run locally](#Making-a-clone-to-run-locally)
+    * [Credits](#Credits)
+      * [Media](#Media)
+      * [Code](#Code)
+      * [Acknowledgements](#Acknowledgements)
 
 
 # Galway Beer and Whiskey Tours
@@ -141,31 +150,46 @@ I felt the palette best represented what the website offered, a friendly explora
 
 ### Wireframes
 
-The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
+* The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
 
-[Desktop Wireframes](documentation/milestone-1-desktop-wireframes.pdf)
+* The wireframe mockup links can be found below:
 
-[Small Screen Wireframes](documentation/milestone-1-smallscreen.pdf)
+* [Desktop Wireframes](documentation/milestone-1-desktop-wireframes.pdf)
+
+* [Small Screen Wireframes](documentation/milestone-1-smallscreen.pdf)
 
 
 
 
 ## Technologies Used
-- This project is built using HTML and CSS programming languages.
-- [Gitpod](https://gitpod.io)- This project was built using __Gitpod__ as the IDE.
+- This project is built using HTML5 semantic markup and CSS stylesheets.
+- [Gitpod](https://gitpod.io)
+    - This project was built using Gitpod as the IDE.
 - [Google fonts](https://fonts.google.com/) 
     - The font styles used on this website were chosen from Google fonts.
-- [Bootstrap 4.5](https://getbootstrap.com/) - Various aspects of this website were structured using Bootstrap.
+- [Bootstrap 4.5](https://getbootstrap.com/)
+   - Various aspects of this website were structured using Bootstrap.
    - Bootstrap was used to make this website responsive
-- [TinyJPG](https://tinyjpg.com/)  - The images represented were compressed using TinyJPG in order to improve the performance of the project. 
-- [Fontawesome](https://fontawesome.com/) The icons used on this page were found in Fontawesome.
-- [Hover.css](https://ianlunn.github.io/Hover/) The hover feature of the navigation links below the hero image were implemented using Hover.css. 
-- [Popper.js](https://popper.js.org/) Certain bootstrap responsive elements require Popper.js in order to function correctly.
-- [Balsamiq](https://balsamiq.com/) The wireframes for this project were created using Balsamiq.
-- [Unsplash](https://unsplash.com/) The majority of images used in this project were found in Unsplash. 
-- [Freeformatter- CSS beautifier](https://www.freeformatter.com/css-beautifier.html) This was used to format the CSS stylesheet.
-- [Freeformatter- HTML formatter](https://www.freeformatter.com/html-formatter.html) This was used to format each HTML page
-- [Adobe Photoshop](https://photoshop.adobe.com/) Some images were resized using Adobe Photoshop.
+- [TinyJPG](https://tinyjpg.com/)
+   - The images represented were compressed using TinyJPG in order to improve the performance of the project. 
+- [Fontawesome](https://fontawesome.com/)
+    - The icons used on this page were found in Fontawesome.
+- [Hover.css](https://ianlunn.github.io/Hover/) 
+    - The hover feature of the navigation links below the hero image were implemented using Hover.css. 
+- [Popper.js](https://popper.js.org/)
+    - Certain bootstrap responsive elements require Popper.js in order to function correctly.
+- [Balsamiq](https://balsamiq.com/)
+    - The wireframes for this project were created using Balsamiq.
+- [Unsplash](https://unsplash.com/)
+    - The majority of images used in this project were found in Unsplash. 
+- [Freeformatter- CSS beautifier](https://www.freeformatter.com/css-beautifier.html)
+    - This was used to format the CSS stylesheet.
+- [Freeformatter- HTML formatter](https://www.freeformatter.com/html-formatter.html)
+    - This was used to format each HTML page
+- [Adobe Photoshop](https://photoshop.adobe.com/) 
+    - Some images were resized using Adobe Photoshop.
+- [Google DevTools](https://developers.google.com/web/tools/chrome-devtools) 
+    - Google Dev Tools was extensively used throughout the project for various styling and testing purposes. Its lighthouse feature was used as one of the main testing tools for this project.
 
 
 
@@ -277,7 +301,7 @@ a classmate passed it through lighthouse on google dev tools with the following 
 
 <img src="documentation/lighthouse-bug (640x399).jpg" width="500" height="300" alt="lighthouse-bug-image" >
 
-The images were compressed further and reuploaded which successfully resolved the issue and the subsequent lighthouse tests were much more satisfactory.
+The images were compressed further using [TinyJPG](https://tinyjpg.com) and reuploaded which successfully resolved the issue and the subsequent lighthouse tests were much more satisfactory.
 
 <img src="documentation/lighthouse (640x218).jpg" width="550" height="250" alt="lighthouse-image" >
 
