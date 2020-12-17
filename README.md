@@ -5,10 +5,9 @@
     * [Strategy](#Strategy)
        * [Project Goals](#Project-Goals)
        * [Customer Goals](#Customer-Goals)
-    * [Scope](#Scope)
        * [User Stories](#User-Stories) 
     * [Structure](#Structure)
-       * [Design](#Design) 
+       * [Features](#Features) 
 
 View the live website [here](https://aideenm12.github.io/Galway-Tours-MS1/)
 
@@ -46,7 +45,7 @@ Prospective users :
 * Are new to the city and in search of a social community.
 * Want easy to contact service providers.
 
-## Scope
+
 
 **The Ideal User of this website is:**
 * Visiting or new to the city.
@@ -66,7 +65,40 @@ Prospective users :
   should I choose to take part in a tour.
 * As a potential client I want to find a fun and unique activity to do during my holiday to Galway. 
 
-## Structure
+# Structure
+
+## Features
+
+The website is divided into four separate pages. A home page, a tours page, a meet-ups page and a contact page. Each page has the same heading located on the left with navigation located on the right on the same row. Each page has the same footer with social media icon links on the right and the webpage title to the left. The same hero image is used on each page and located directly beneath the navigation bar. A row of navigation links are located directly below the hero image also. 
+
+#### Home Page.
+
+The home page gives a general overview of the content offered by the site. There is an About section beneath the hero image which explains what the site is and what it does. Beneath the About section is a testimonials section designed to promote a positive response from potential customers because it provides them with positive feedback of the site from other users. Beneath the testimonials section is a continuation of the About section which provides more detail about the tours and meet-ups pages. The home page is designed to give users all the information that they need so that when they visit the rest of they site they are not overwhelmed by information and so that they are fully aware of what is being offered without having to search for extra information. On mobile devices the hero image is resized a placed as the background image to maintain style integrity. The testimonials section is removed from mobile devices so as not to overload the user with too much reading. Each paragraph is presented with an opaque background that follows the site's color palette in a more suitable design for mobile screens. 
+
+#### Tours page.
+
+The tours page provides all the required information a user need to before booking a tour. Beneath the hero image three separate tours are presented side by side starting from the smallest and cheapest to the longest and most expensive. The price range stretches from 20 euro to 60 euro to suit the disposable income of the targeted demographic and is highlighted at the end of each tour description to avoid lack of clarity. Each tour is described in depth. Locations are listed at the top of the description and what occurs on each tour is described beneath the list to allow the user to take in as much or as little information as they require before booking a tour. At the top of each tour description is an image specifically chosen because it accurately represents the product being offered and it matches the color scheme. Like the home page, the tours page uses an image as its background on mobile devices but this time the image chosen is of two whiskeys by candlelight so as to offer the user another visual representation of what is being offered. Beneath the tour descriptions is an image of Galway harbour at night which was chosen because it is fits the aesthetic of the site and also the content of the site. 
+
+#### Meetups Page.
+
+The meet-ups page is very similar to the tours page in terms of desktop layout. Beneath the hero image three separate social activites are presented side by side. An image of the activity is presented above the description each activity to allow the user to become more familiar with what is being offered. The activities described are as follows, a social meet-up for people who are new to the city or want to make new friends, a language exchange for those that like to blend learning and socialising and fianlly a beer run for those that enjoy exercising as a means of socialising. Locations for each activity along with times are clearly provided so as to avoid causing the user any confusion. The beer run and social meet-ups are both free of charge and are designed to encourage returning users and boost the popularity of the site through word of mouth. The image of Galway harbour is also located beneath the descriptions offered on this site.
+
+#### Contact page.
+
+The contact page presents the user with a simple contact form with a submit button at the bottom which they can use to contact the owners of the site in order to book a tour or simply enquire about one of the social activities. Each field has been marked as required to avoid the possibility of an error when trying to contact the owners of the site. The contact form is placed against the background image of Galway Harbour so as to effectively reuse the imagery chosen by the developer to maintain design integrity and promote a positive user experience. 
+
+### Existing Features
+* The title header is located on left of every page. It's function is to build and promote brand awareness whilst also creating a positive emotional response from the user by showcasing the color-scheme and typography specifically chosen for the brand.
+
+* The navigation bar is located to the left of the title header on every page. It is located where a user would expect to find it to promote ease of use and easy navigation. Bootstrap technology allows it to collapse into a hamburger style on mobile devices again to match the expectation of the user and also make efficient use of screen space on smaller screens.
+
+* The hero image is located on the desktop version of each page. It was chosen because it accurately represents the product being offered and it was used by the developer to chose the overall color-scheme. The image is of the bar in a traditional Galway pub and offers users a visual representation of the product being offered. 
+
+* Directly beneath the hero image are three navigation links. These have been put here to create greater accessibility so that no matter what page the user finds themselves on they can click the desired page without having to search. 
+
+* The footer follows the same design as the header. The website title is located on the left and links to Facebook, Instagram and Tripadvisor are stored in the icons to the right. Each of these links opens in a new tab so as to keep the user on the business page longer. A fourth icon is provided and links directly to the contact page so the user doesn't have to search for the contact page. 
+
+
 
 ### Design
 
@@ -110,20 +142,21 @@ The wireframes were created using [Balsamiq wireframes](https://balsamiq.com/)
 - This project is built using HTML and CSS programming languages.
 - [Gitpod](https://gitpod.io)- This project was built using __Gitpod__ as the IDE.
 - [Google fonts](https://fonts.google.com/) 
-    - Google fonts
-- [Bootstrap 4.5](https://getbootstrap.com/)
-- [TinyJPG](https://tinyjpg.com/)   
-- [Fontawesome](https://fontawesome.com/)
-- [Hover.css](https://ianlunn.github.io/Hover/)
-- [Popper.js](https://popper.js.org/) 
-- [Balsamiq](https://balsamiq.com/)
-- [Unsplash](https://unsplash.com/) 
+    - The font styles used on this website were chosen from Google fonts.
+- [Bootstrap 4.5](https://getbootstrap.com/) - Various aspects of this website were structured using Bootstrap.
+   - Bootstrap was used to make this website responsive
+- [TinyJPG](https://tinyjpg.com/)  - The images represented were compressed using TinyJPG in order to improve the performance of the project. 
+- [Fontawesome](https://fontawesome.com/) The icons used on this page were found in Fontawesome.
+- [Hover.css](https://ianlunn.github.io/Hover/) The hover feature of the navigation links below the hero image were implemented using Hover.css. 
+- [Popper.js](https://popper.js.org/) Certain bootstrap responsive elements require Popper.js in order to function correctly.
+- [Balsamiq](https://balsamiq.com/) The wireframes for this project were created using Balsamiq.
+- [Unsplash](https://unsplash.com/) The majority of images used in this project were found in Unsplash. 
 
 
 
 
 
-## Features
+
 
 
 ## Testing
@@ -257,4 +290,18 @@ This project was deployed from the [Github Respository](https://github.com/Aidee
 * The language.jpg image was originally obtained from [Elevate on upsplash.com](https://unsplash.com/photos/UoPNA8I-_p0)
 * The following images were supplied by me for the testimonials section of the homepage: aoifeandnoddy.jpg, brian.jpg, becky.jpg,    rob.jpg.
 
+### Code
+
+* The hover function of the navigation links located beneath the hero image was originally taken from the Mini Project with Bootstrap 4 by Matt Rudge. 
+
+* The testimonials section of the homepage was inspired by the Bootstrapping your next Big idea lesson series by Matt Rudge of the Code Institute.  
+
 ### Acknowledgements
+
+* I'd like to thank my mentor Aaron Sinnott for providing excellent feedback and offering advice about various different aspects of the project which pushed me to improve.
+
+* I'd also like to thank my mentor Seun for providing initial feedback and helping me with some stylistic issues during the earlier stages of the project. 
+
+* I'd like to thank the entire Slack community for continually offering solutions and providing positive motivation throughout this project.
+
+* I'd like to thank my Springboard classmates for constantly offering help and support throughout the project and also pushing me to improve by maintaining a high standard in their own work.
