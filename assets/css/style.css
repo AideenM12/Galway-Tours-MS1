@@ -116,6 +116,7 @@ button .navbar-toggler:focus {
 }
 
 /*------------------------Footer----------*/
+
 footer {
 	font-family: "Special Elite", sans-serif;
 	width: 100%;
@@ -296,6 +297,7 @@ footer {
 }
 
 /*-------------------------------Contact page------------*/
+
 .galway {
 	width: 100%;
 	height: 600px;
@@ -383,8 +385,10 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
+
 	/*----------------------------------------------Backgrounds------*/
-	/*this solution was found on stack overflow*/
+    /*this solution was found on stack overflow*/
+    
 	html,
 	body {
 		overflow-x: hidden;
@@ -400,7 +404,8 @@ footer {
 		-o-background-size: cover;
     }
     
-	/* Multiple backgrounds solution was found on Stack Overflow*/
+    /* Multiple backgrounds solution was found on Stack Overflow*/
+    
 	body.tours {
 		background: url("../../assets/images/whiskey.jpg") no-repeat center center fixed;
 		width: 100vw;
