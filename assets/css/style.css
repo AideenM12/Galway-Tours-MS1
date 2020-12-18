@@ -14,7 +14,7 @@ body {
 
 .body-color {
 	background-color: #005e7c;
-	color: #001242;
+	color: #c1d3fe;
 }
 
 /*----------------------------------------------Header*/
@@ -30,16 +30,19 @@ body {
 	position: relative;
 	float: right;
 }
+
 .logo-outer {
 	height: 600px;
 	width: 100%;
 	position: relative;
 	clear: both;
 }
+
 .banner h1 {
 	text-align: justify;
 	padding-top: 5px;
 }
+
 .banner {
 	width: 100%;
 	position: fixed;
@@ -47,15 +50,18 @@ body {
 	z-index: 1;
 	border-bottom: 2px #005e7c solid;
 }
+
 h1,
 h2,
 h3,
 h5 {
 	font-family: "Special Elite", sans-serif;
 }
+
 p {
 	font-family: "Zilla Slab", sans-serif;
 }
+
 .page-break {
 	height: 60px;
 	width: 100%;
@@ -66,9 +72,11 @@ p {
 	font-family: "Special Elite", sans-serif;
 	font-size: 25px;
 }
+
 .page-break a {
 	color: #c1d3fe;
 }
+
 .page-break a:hover {
 	color: #040f16;
 	font-weight: 600;
@@ -88,17 +96,21 @@ nav {
 	float: right;
 	font-size: 20px;
 }
+
 .fa-bars {
 	font-weight: 900;
 	color: #0094c6;
 	font-size: 30px;
 }
+
 .nav-link {
 	color: #0094c6;
 }
+
 .nav-link:hover {
 	color: #005e7c;
 }
+
 button .navbar-toggler:focus {
 	outline: none;
 }
@@ -110,6 +122,7 @@ footer {
 	height: auto;
 	position: relative;
 }
+
 .row-margin {
 	border-top: 2px #005e7c solid;
 	padding-left: 10px;
@@ -120,14 +133,17 @@ footer {
 	width: 100%;
 	height: auto;
 }
+
 .foot-text {
 	font-family: "Special Elite", sans-serif;
 	font-size: 20px;
 	padding-left: 25px;
 }
+
 .icons {
 	float: right;
 }
+
 .icons li a i {
 	padding-top: 10px;
 	line-height: 10px;
@@ -142,6 +158,7 @@ footer {
 	text-align: center;
 	padding-top: 10px;
 }
+
 .icons li a i:hover {
 	color: #0094c6;
 	background-color: #001242;
@@ -155,16 +172,19 @@ footer {
 	width: 100%;
 	margin: 20px;
 }
+
 .description-left {
 	width: 100%;
 	float: left;
 	text-align: center;
 }
+
 .barflair img {
 	max-height: 240px;
 	max-width: 290px;
 	padding-bottom: 10px;
 }
+
 .people img {
 	max-height: 300px;
 }
@@ -189,12 +209,14 @@ footer {
 .tour-border {
 	border: 2px solid #040f16;
 }
+
 .tour1 {
 	margin-top: 60px;
 	margin-bottom: 20px;
 	text-align: center;
 	padding-left: 30px;
 }
+
 .tour2 {
 	margin-top: 60px;
 	margin-bottom: 20px;
@@ -202,6 +224,7 @@ footer {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
 .tour3 {
 	margin-top: 60px;
 	margin-bottom: 20px;
@@ -209,6 +232,7 @@ footer {
 	padding-left: 10px;
 	padding-right: 20px;
 }
+
 .tour1 img,
 .tour2 img,
 .tour3 img {
@@ -218,6 +242,7 @@ footer {
 	border-radius: 50%;
 	border: solid #040f16 15px;
 }
+
 .tour-list {
 	font-family: 'Zilla Slab', sans-serif;
 	font-size: 20px;
@@ -225,31 +250,39 @@ footer {
 	padding: 0;
 	list-style-position: inside;
 }
+
 .tour-list-item {
 	text-align: center;
 }
+
 .tour-heading {
 	font-weight: 600;
 	font-size: 35px;
 }
+
 .tour3 h5 {
 	font-weight: 600;
 	font-size: 25px;
 }
+
 .tour1 p {
 	margin-top: 100px;
 }
+
 .tour2 p {
 	margin-top: 50px;
 }
+
 .price {
 	font-family: 'Special Elite', san-serif;
 	font-size: 20px;
 	font-weight: 600;
 }
+
 .tour1 i {
 	padding-top: 30px;
 }
+
 .tour1 i,
 .tour2 i,
 .tour3 i {
@@ -257,6 +290,7 @@ footer {
 	width: 30px;
 	font-size: 30px;
 }
+
 .meetups-mobile p {
 	margin-top: 20px;
 }
@@ -266,10 +300,12 @@ footer {
 	width: 100%;
 	height: 600px;
 }
+
 .galway img {
 	width: 100%;
 	height: 600px;
 }
+
 .contact {
 	background-color: rgba(0, 0, 34, 0.95);
 	font-family: 'Special Elite', sans-serif;
@@ -281,9 +317,11 @@ footer {
 	clear: both;
 	float: none;
 }
+
 .contactbg {
 	background: url("../../assets/images/galway.jpg") no-repeat center center fixed;
 }
+
 .btn {
 	background-color: #0094c6;
 	color: #001242;
@@ -294,6 +332,7 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .btn a:hover {
 	color: #040f16;
 	font-weight: bold;
@@ -304,33 +343,40 @@ footer {
 @media only screen and (min-width: 577px) and (max-width:992px) {
 	h1 {
 		font-size: 35px;
-	}
+    }
+    
 	.tour1,
 	.tour2,
 	.tour3 {
 		width: 33%;
-	}
+    }
+    
 	.description-left {
 		float: right;
 		width: 100%;
-	}
+    }
+    
 	.about {
 		height: auto;
 		width: 100%;
-	}
+    }
+    
 	.testimonials h1 {
 		text-align: center;
-	}
+    }
+    
 	.tour1 img,
 	.tour2 img,
 	.tour3 img {
 		width: 200px;
-	}
+    }
+    
 	button.navbar-toggler {
 		float: right;
 		padding: 10px;
 		margin: 20px;
-	}
+    }
+    
 	.navbar-toggler:focus {
 		outline: 5px auto #000022;
 	}
@@ -343,7 +389,8 @@ footer {
 	body {
 		overflow-x: hidden;
 		overflow-y: scroll !important;
-	}
+    }
+    
 	body {
 		background: url("../../assets/images/mobilehero.jpg") no-repeat center center fixed;
 		width: 100vw;
@@ -351,7 +398,8 @@ footer {
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-	}
+    }
+    
 	/* Multiple backgrounds solution was found on Stack Overflow*/
 	body.tours {
 		background: url("../../assets/images/whiskey.jpg") no-repeat center center fixed;
@@ -362,7 +410,8 @@ footer {
 		-o-background-size: cover;
 		background-size: cover;
 		background-repeat: no-repeat;
-	}
+    }
+    
 	body.meetups {
 		background: url("../../assets/images/barflair.jpg") no-repeat center center fixed;
 		width: 100vw;
@@ -372,7 +421,8 @@ footer {
 		-o-background-size: cover;
 		background-size: cover;
 		background-repeat: no-repeat;
-	}
+    }
+    
 	body.contactpage {
 		background: url("../../assets/images/galway.jpg") no-repeat center center fixed;
 		width: 100vw;
@@ -382,8 +432,10 @@ footer {
 		-o-background-size: cover;
 		background-size: cover;
 		background-repeat: no-repeat;
-	}
-	/*------------------------------------Headers----------------*/
+    }
+    
+    /*------------------------------------Headers----------------*/
+    
 	.banner {
 		display: inline-block;
 		clear: both;
@@ -398,37 +450,46 @@ footer {
 		margin-bottom: 5px;
 		z-index: 1;
 		border-bottom: 5px #005e7c solid;
-	}
+    }
+    
 	.banner h1 {
 		font-size: 25px;
 		font-weight: 600;
 		word-spacing: 5px;
 		text-align: left;
 		line-height: 1;
-	}
-	/*----------------------------------------Navigation-----------------*/
+    }
+    
+    /*----------------------------------------Navigation-----------------*/
+    
 	nav {
 		float: right;
-	}
+    }
+    
 	.navbar-toggler {
 		padding: 0;
-	}
-	/*--------------------------Home Page Body------------*/
+    }
+    
+    /*--------------------------Home Page Body------------*/
+    
 	.about {
 		height: auto;
 		width: 100%;
 		display: block;
-	}
+    }
+    
 	.description-left,
 	.description-right {
 		width: 100%;
 		padding: 15px;
-	}
+    }
+    
 	.description-left h3 {
 		font-size: 30px;
 		font-weight: 700;
 		text-align: center;
-	}
+    }
+    
 	.mobile-description {
 		width: 100%;
 		margin-top: 150px;
@@ -437,31 +498,36 @@ footer {
 		border-radius: 25%;
 		clear: both;
 		background-color: rgba(0, 94, 124, 0.9);
-		color: #001242;
+		color: #c1d3fe;
 		font-weight: 600;
 		border: solid 2px #001242;
 		padding: 20px 15px;
 		display: block;
-	}
-	/*--------------------------------------Footer------------*/
+    }
+    
+    /*--------------------------------------Footer------------*/
+    
 	.row-margin {
 		overflow: hidden;
 		height: 120px;
 		font-size: 15px;
 		font-weight: 400;
 		border-top: 5px #005e7c solid;
-	}
+    }
+    
 	.foot-text {
 		font-size: 20px;
 		display: inline-block;
 		padding-left: 10px;
 		font-weight: 800;
-	}
+    }
+    
 	.icons {
 		float: none;
 		word-spacing: 30px;
 		margin-bottom: 10px;
-	}
+    }
+    
 	.icons li a i {
 		height: 40px;
 		width: 40px;
@@ -470,72 +536,88 @@ footer {
 		border-radius: 50%;
 		line-height: 15px;
 		margin: 5px;
-	}
+    }
+    
 	.foot-1 {
 		height: 20px;
 		text-align: center;
 		position: relative;
-	}
+    }
+    
 	.foot-2 {
 		text-align: center;
 		height: 30px;
 		position: relative;
 		padding-bottom: 5px;
-	}
-	/*------------------------------------------Tours-----------*/
+    }
+    
+    /*------------------------------------------Tours-----------*/
+    
 	.tour1 {
 		margin: 300px 35px 100px 35px;
 		padding: 20px;
 		background-color: rgba(0, 94, 124, 0.9);
 		border-radius: 25%;
 		font-weight: 600;
-	}
+    }
+    
 	.tour2 {
 		margin: 100px 35px 100px 35px;
 		padding: 20px;
 		background-color: rgba(0, 94, 124, 0.9);
 		border-radius: 25%;
 		font-weight: 600;
-	}
+    }
+    
 	.tour-heading {
 		font-weight: 600;
-	}
+    }
+    
 	.tour3 {
 		margin: 100px 35px 250px 35px;
 		padding: 20px;
 		background-color: rgba(0, 94, 124, 0.9);
 		border-radius: 25%;
 		font-weight: 600;
-	}
+    }
+    
 	.tour1 p {
 		margin-top: 10px;
-	}
+    }
+    
 	.tour2 p {
 		margin-top: 10px;
-	}
+    }
+    
 	.tour1 img,
 	.tour2 img,
 	.tour3 img {
 		margin: 10px;
 		border: solid #040f16 10px;
-	}
-	/*-------------------------------------Meet-Ups-------*/
+    }
+    
+    /*-------------------------------------Meet-Ups-------*/
+    
 	.meetups-mobile {
 		background-color: rgba(0, 18, 66, 0.9);
 		color: #0094c6;
 		border: 2px solid #0094c6;
-	}
+    }
+    
 	.meetups-mobile img {
 		margin: 5px;
 		border: solid #0094c6 10px;
-	}
-	/*--------------------------------------Contact Page------------*/
+    }
+    
+    /*--------------------------------------Contact Page------------*/
+    
 	.contact {
 		margin-top: 240px;
 		margin-bottom: 75px;
 		font-size: 20px;
 		width: 80vw;
-	}
+    }
+    
 	.contactbg {
 		background: none;
 	}
