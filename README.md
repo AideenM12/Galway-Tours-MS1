@@ -40,13 +40,13 @@ The live website can be viewed [here](https://aideenm12.github.io/Galway-Tours-M
 
 ### Project Goals
 
-The central goal is to create a fictional business to customer website that offers a unique tourist experience of Galway city through the medium of organized tours of the city's pub scene. The business function of the site is to create brand awareness which will be enhanced by linking the site to various social media accounts and also to Tripadvisor so the user can access accounts of previous customer experiences. There will also be a testimonial section on the landing page which in
-tandem with tripadvisor will be used to heighten the percived value of the business. The primary function of the social
+The central goal is to create a fictional business to customer website that offers a unique tourist experience of Galway city through the medium of organized tours of the city's pub scene. The business function of the site is to create brand awareness which will be enhanced by linking the site to various social media accounts and also to Tripadvisor so the user can access accounts of previous customer experiences. There will also be a testimonial section on the landing page which, in
+tandem with, tripadvisor will be used to heighten the percived value of the business. The primary function of the social
 meet-ups page is to generate and enhance the social currency of the website and explore another possible future business
-venture if the meet-ups proved popular among users. What makes this idea special or even viable? Studies have consistently
+venture if the meet-ups prove popular among users. What makes this idea special or even viable? Studies have consistently
 shown that the millenial generation prefer spending their income on experiences rather than material objects and this 
 generation also happens to be in possession of considerable disposable income. Galway's tourist industry is booming and 
-this idea appeals an experience orientated tourist by exploiting Galway's primary tourism asset: its nightlife. 
+this idea appeals to an experience oriented tourist by exploiting Galway's primary tourism asset: its nightlife. 
 
 **The Strategy for achieving the above business goals is as follows:**
 * Creating an online presence for Galway Beer and Whiskey Tours.
@@ -68,8 +68,8 @@ Prospective users :
 
 
 
-**The Ideal User of this website is:**
-* Visiting or new to the city.
+**The Ideal User of this website :**
+* Is visiting or new to the city.
 * Enjoys socialising.
 * Has an interest in Irish pub culture.
 * Has dispoable income which they enjoy spending on unique experiences.
@@ -94,28 +94,28 @@ The website is divided into four separate pages. A home page, a tours page, a me
 
 #### Home Page.
 
-The home page gives a general overview of the content offered by the site. There is an About section beneath the hero image which explains what the site is and what it does. Beneath the About section is a testimonials section designed to promote a positive response from potential customers because it provides them with positive feedback of the site from other users. Beneath the testimonials section is a continuation of the About section which provides more detail about the tours and meet-ups pages. The home page is designed to give users all the information that they need so that when they visit the rest of they site they are not overwhelmed by information and so that they are fully aware of what is being offered without having to search for extra information. On mobile devices the hero image is resized a placed as the background image to maintain style integrity. The testimonials section is removed from mobile devices so as not to overload the user with too much reading. Each paragraph is presented with an opaque background that follows the site's color palette in a more suitable design for mobile screens. 
+The home page gives a general overview of the content offered by the site. There is an About section beneath the hero image which explains what the site is and what it does. Beneath the About section is a testimonials section designed to promote a positive response from potential customers because it provides them with positive feedback of the site from other users. Beneath the testimonials section is a continuation of the About section which provides more detail about the tours and meet-ups pages. The home page is designed to give users all the information that they need so that when they visit the rest of they site they are not overwhelmed by information and so that they are fully aware of what is being offered without having to search for extra information. On mobile devices the hero image is resized and placed as the background image to maintain style integrity. The testimonials section is removed from mobile devices so as not to overload the user with too much reading. Each paragraph is presented with an opaque background that follows the site's color palette in a more suitable design for mobile screens. 
 
 #### Tours page.
 
-The tours page provides all the required information a user need to before booking a tour. Beneath the hero image three separate tours are presented side by side starting from the smallest and cheapest to the longest and most expensive. The price range stretches from 20 euro to 60 euro to suit the disposable income of the targeted demographic and is highlighted at the end of each tour description to avoid lack of clarity. Each tour is described in depth. Locations are listed at the top of the description and what occurs on each tour is described beneath the list to allow the user to take in as much or as little information as they require before booking a tour. At the top of each tour description is an image specifically chosen because it accurately represents the product being offered and it matches the color scheme. Like the home page, the tours page uses an image as its background on mobile devices but this time the image chosen is of two whiskeys by candlelight so as to offer the user another visual representation of what is being offered. Beneath the tour descriptions is an image of Galway harbour at night which was chosen because it is fits the aesthetic of the site and also the content of the site. 
+The tours page provides all the required information a user needs to before booking a tour. Beneath the hero image three separate tours are presented side by side starting from the smallest and cheapest to the longest and most expensive. The price range stretches from 20 euro to 60 euro to suit the disposable income of the targeted demographic and is highlighted at the end of each tour description to avoid lack of clarity. Each tour is described in depth. Locations are listed at the top of the description and what occurs on each tour is described beneath the list to allow the user to take in as much or as little information as they require before booking a tour. At the top of each tour description is an image specifically chosen because it accurately represents the product being offered and it matches the color scheme. Like the home page, the tours page uses an image as its background on mobile devices but this time the image chosen is of two whiskeys by candlelight so as to offer the user another visual representation of what is being offered. Beneath the tour descriptions is an image of Galway harbour at night which was chosen because it is fits the aesthetic of the site and also the content of the site. 
 
 #### Meetups Page.
 
-The meet-ups page is very similar to the tours page in terms of desktop layout. Beneath the hero image three separate social activites are presented side by side. An image of the activity is presented above the description each activity to allow the user to become more familiar with what is being offered. The activities described are as follows, a social meet-up for people who are new to the city or want to make new friends, a language exchange for those that like to blend learning and socialising and fianlly a beer run for those that enjoy exercising as a means of socialising. Locations for each activity along with times are clearly provided so as to avoid causing the user any confusion. The beer run and social meet-ups are both free of charge and are designed to encourage returning users and boost the popularity of the site through word of mouth. The image of Galway harbour is also located beneath the descriptions offered on this site.
+The meet-ups page is very similar to the tours page in terms of desktop layout. Beneath the hero image three separate social activites are presented side by side. An image of the activity is presented above the description of the activity to allow the user to become more familiar with what is being offered. The activities described are as follows, a social meet-up for people who are new to the city or want to make new friends, a language exchange for those that like to blend learning and socialising and fianlly a beer run for those that enjoy exercising as a means of socialising. Locations for each activity along with times are clearly provided so as to avoid causing the user any confusion. The beer run and social meet-ups are both free of charge and are designed to encourage returning users and boost the popularity of the site through word of mouth. The image of Galway harbour is also located beneath the descriptions offered on this site.
 
 #### Contact page.
 
 The contact page presents the user with a simple contact form with a submit button at the bottom which they can use to contact the owners of the site in order to book a tour or simply enquire about one of the social activities. Each field has been marked as required to avoid the possibility of an error when trying to contact the owners of the site. The contact form is placed against the background image of Galway Harbour so as to effectively reuse the imagery chosen by the developer to maintain design integrity and promote a positive user experience. 
 
 ### Existing Features
-* The title header is located on left of every page. It's function is to build and promote brand awareness whilst also creating a positive emotional response from the user by showcasing the color-scheme and typography specifically chosen for the brand.
+* The title header is located on the left of every page. Its function is to build and promote brand awareness whilst also creating a positive emotional response from the user by showcasing the color-scheme and typography specifically chosen for the brand.
 
 * The navigation bar is located to the left of the title header on every page. It is located where a user would expect to find it to promote ease of use and easy navigation. Bootstrap technology allows it to collapse into a hamburger style on mobile devices again to match the expectation of the user and also make efficient use of screen space on smaller screens.
 
-* The hero image is located on the desktop version of each page. It was chosen because it accurately represents the product being offered and it was used by the developer to chose the overall color-scheme. The image is of the bar in a traditional Galway pub and offers users a visual representation of the product being offered. 
+* The hero image is located on the desktop version of each page. It was chosen because it accurately represents the product being offered and it was used by the developer to chose the overall color-scheme. The image is of a bar in a traditional Galway pub and offers users a visual representation of the product being offered. 
 
-* Directly beneath the hero image are three navigation links. These have been put here to create greater accessibility so that no matter what page the user finds themselves on they can click the desired page without having to search. 
+* Directly beneath the hero image are three navigation links. These have been put here to create greater accessibility so that no matter what page the user finds themselves on, they can click the desired page without having to search. 
 
 * The footer follows the same design as the header. The website title is located on the left and links to Facebook, Instagram and Tripadvisor are stored in the icons to the right. Each of these links opens in a new tab so as to keep the user on the business page longer. A fourth icon is provided and links directly to the contact page so the user doesn't have to search for the contact page. 
 
@@ -127,8 +127,6 @@ The contact page presents the user with a simple contact form with a submit butt
 I chose the 'Special Elite' font because it me reminded of the fonts used on old-style beer labels which helps 
 with the aesthetic I wanted to create. I contrasted this with the 'Zilla Slab' font in order to complement the 
 'Special Elite' font and also to maintain some style neutrality in order to prevent a style overload on the website.
-I added a text shadow to the h3 text on mobile screen because the original text was quite difficult to view against the 
-background image. 
 
 **Colours**
 I chose my color palette using the https://coolors.co website which my mentor had recommended. I chose these colors because
@@ -144,7 +142,8 @@ I felt the palette best represented what the website offered, a friendly explora
 * Blue Sapphire - Hex: #005E7C | RGB (0, 94, 124)
 * Rich Black FOGRA 29 - Hex: #040F16 | RGB (4, 15, 22)
 
-**Display**
+**Imagery**
+The imagery used was primarily found on [unsplash](https://unsplash.com). These images were chosen because they matched the aesthetic and colour-scheme of the website whilst also providing an accurate representation of what was being offered. In the images Irish bars can be seen, as can drinks and also people socialising. The images of the testimonials section were provided by the developer to give the site a more authentic feel.  
 . 
 ## Skeleton
 
@@ -210,7 +209,8 @@ I felt the palette best represented what the website offered, a friendly explora
     <img src="documentation/about3.png" width="250" height="650" alt="about3.png">
 
 * As a first time user I want to be able to communicate with the service user easily and efficiently.
-    * Testing was performed to ensure that all links to the contact page were functioning correctly and also that these links were easily found. Testing was performed to ensure that the contact form worked and was also tested to ensure that each field had a required function. 
+    * Testing was performed to ensure that all links to the contact page were functioning correctly and also that these links were easily found. 
+    * Testing was performed to ensure that the contact form worked and was also tested to ensure that each field had a required function. 
 
     <img src="documentation/contactform.jpg" width="250" height="350" alt="contactform.jng">
 
@@ -273,7 +273,7 @@ I felt the palette best represented what the website offered, a friendly explora
 
 
 
-The below image is an example result of lighthouse testing performed on the index page for mobile with every other test achieving similar results. The lighthouse tool found in Google Dev Tools was used repeatedly throughout the building of the project and was essential in discovering resolving the issues described below. A lighthouse test was performed on both mobile and desktop for each individual page on the site with links to the full reports of each of these tests found below. The lighthouse tool tested each of the following criteria: performance, accessibility, best practices and SEO of each individual page in both mobile and desktop. Each test resulted in a score of 85 or above for each of the aforementioned criteria. 
+The below image is an example result of lighthouse testing performed on the index page for mobile with every other test achieving similar results. The lighthouse tool found in Google Dev Tools was used repeatedly throughout the building of the project and was essential in discovering and resolving the issues described below. A lighthouse test was performed on both mobile and desktop for each individual page on the site with links to the full reports of each of these tests found below. The lighthouse tool tested each of the following criteria: performance, accessibility, best practices and SEO of each individual page in both mobile and desktop. Each test resulted in a score of 85 or above for each of the aforementioned criteria. 
 
 <img src="documentation/finallighthouse (640x236).jpg" width="650" height="300" alt="final-lighthouse-results">
 
@@ -296,7 +296,7 @@ The below image is an example result of lighthouse testing performed on the inde
 <img src="documentation/tour-page-bug.jpg" width="200" height="300" alt="tours-bug-image" >
 <img src="documentation/meetups-page-bug.jpg" width="200" height="300" alt="meetups-bug-image" >
 
-The images had been compressed but after placing the project into #peer-code-review to allow it to be tested on other devices
+The images had been compressed but after placing the project into #peer-code-review to allow it to be tested on other devices,
 a classmate passed it through lighthouse on google dev tools with the following results: 
 
 <img src="documentation/lighthouse-bug (640x399).jpg" width="500" height="300" alt="lighthouse-bug-image" >
@@ -352,9 +352,9 @@ This project was deployed from the [Github Respository](https://github.com/Aidee
 
 ### Code
 
-* The hover function of the navigation links located beneath the hero image was originally taken from the Mini Project with Bootstrap 4 by Matt Rudge. 
+* The hover function of the navigation links located beneath the hero image was originally taken from the Mini Project with Bootstrap 4 by Matt Rudge.  A link to the original project can be found [here](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download)
 
-* The testimonials section of the homepage was inspired by the Bootstrapping your next Big idea lesson series by Matt Rudge of the Code Institute.  
+* The testimonials section of the homepage was inspired by the Bootstrapping your next Big idea lesson series by Matt Rudge of the Code Institute. A link to the original project can be found [here](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content)
 
 * [Stack Overflow](https://stackoverflow.com/) was used as a general resource for general issues and obstacles.  
 

@@ -20,7 +20,7 @@ body {
 /*----------------------------------------------Header*/
 
 
-/* Logo code was inspired by the love running page provided by the Code Institute */
+/* Logo code was inspired by the love running page provided by the Code Institute which can be found here https://github.com/Code-Institute-Solutions/Love-Running-Solutions/tree/master/08_responsive_elements/05_responsive_gallery------------->     */
 .logo {
 	height: 600px;
 	width: 100%;
@@ -75,7 +75,7 @@ p {
 	text-decoration: none;
 }
 
-/* This code was taken from the Rosie project by Matt Rudge CI */
+/* This code was taken from the Rosie project by Matt Rudge CI which can be found here https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download --------------> */
 
 .hvr-sweep-to-right:before {
 	background: rgba(0, 0, 0, 0.2);
